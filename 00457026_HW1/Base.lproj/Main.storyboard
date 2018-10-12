@@ -1,24 +1,2124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gNj-9P-Zax">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--璀璨的三國-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_0457026_HW1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="电视剧三国2010" translatesAutoresizingMaskIntoConstraints="NO" id="5iy-Ua-BeK">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nv2-BE-Qny">
+                                <rect key="frame" x="117" y="535" width="141" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="征程開始">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="yCP-JJ-cKr" kind="show" id="7V2-Vi-CZO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="457026陳品逸製" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQK-c1-vdL">
+                                <rect key="frame" x="224" y="634" width="145" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="璀璨的三國時代" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZU-NM-qea">
+                                <rect key="frame" x="16" y="70" width="343" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68233079657341378" green="1" blue="0.71113980936301524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="34"/>
+                                <color key="textColor" red="0.96011000871658325" green="0.28912261128425598" blue="0.066674612462520599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.044168196618556976" green="0.79483342170715332" blue="0.9106716513633728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="璀璨的三國" id="hGF-nP-wEo"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2919.1999999999998" y="192.95352323838082"/>
+        </scene>
+        <!--國家選擇-->
+        <scene sceneID="ufx-4t-Ps7">
+            <objects>
+                <viewController title="國家選擇" id="yCP-JJ-cKr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C7Z-cu-W5Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="魏蜀吳" translatesAutoresizingMaskIntoConstraints="NO" id="X8T-dL-Qhb">
+                                <rect key="frame" x="0.0" y="64" width="375" height="354"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="請點擊國家名字， 選擇您想查閱的國家名將！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tp-mN-Kwx">
+                                <rect key="frame" x="0.0" y="418" width="375" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rd-vJ-Sck">
+                                <rect key="frame" x="55" y="240" width="96" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Zwg-V1-ON8" kind="show" id="5V3-xH-6oi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0KK-e1-b7z">
+                                <rect key="frame" x="141" y="100" width="161" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Y2s-UW-lv5" kind="show" id="egF-sb-WBx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QnS-GM-chg">
+                                <rect key="frame" x="197" y="258" width="137" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="VlX-oX-sJO" kind="show" id="gnG-ry-zfQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="j8p-VR-5vo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Znb-pl-lYE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3636" y="192.95352323838082"/>
+        </scene>
+        <!--蜀-->
+        <scene sceneID="5lz-1G-Jrc">
+            <objects>
+                <tableViewController title="蜀" id="Zwg-V1-ON8" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="G7c-0q-8qg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="cLr-rT-GyS">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="XMq-gT-m9I">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XMq-gT-m9I" id="qGF-8j-KFU">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="漢中王x劉皇叔——劉備" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phD-d5-BKg">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="劉備" translatesAutoresizingMaskIntoConstraints="NO" id="pny-FB-nCm">
+                                                    <rect key="frame" x="184" y="0.0" width="207" height="119"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.28595279299999998" green="1" blue="0.28623440119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="BT3-0a-5rO" kind="show" id="7dB-v5-DwO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="Gpm-jY-mSF">
+                                        <rect key="frame" x="0.0" y="104" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gpm-jY-mSF" id="i8j-vH-i2C">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="武聖x漢壽亭侯——關羽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ca7-w5-QcA">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="關羽" translatesAutoresizingMaskIntoConstraints="NO" id="xTE-SJ-m4N">
+                                                    <rect key="frame" x="168" y="0.0" width="237" height="114"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.28595279299999998" green="1" blue="0.28623440119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="RR7-fs-Lj1" kind="show" id="9MN-sE-x4u"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="kEB-yG-nSy">
+                                        <rect key="frame" x="0.0" y="208" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kEB-yG-nSy" id="9Ru-Dx-ZOh">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="龍膽x七進七出——趙雲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVD-c2-gzI">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="趙雲" translatesAutoresizingMaskIntoConstraints="NO" id="muR-CA-X8j">
+                                                    <rect key="frame" x="158" y="0.0" width="257" height="112"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.28595279299999998" green="1" blue="0.28623440119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="z32-7S-0Jm" kind="show" id="LK4-6k-T6E"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="dyn-Bg-lXb">
+                                        <rect key="frame" x="0.0" y="312" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dyn-Bg-lXb" id="4pa-pf-5we">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="獨拒x長板橋——張飛" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST4-SU-gIW">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="張飛" translatesAutoresizingMaskIntoConstraints="NO" id="YBD-L0-p2F">
+                                                    <rect key="frame" x="184" y="0.0" width="201" height="114"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.28595279299999998" green="1" blue="0.28623440119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="scb-cf-VpF" kind="show" id="auc-HN-HCn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="OFc-X4-aHZ">
+                                        <rect key="frame" x="0.0" y="416" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OFc-X4-aHZ" id="iq8-h7-jIT">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="老漢x推車——黃忠" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IV8-Ml-GBd">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃忠" translatesAutoresizingMaskIntoConstraints="NO" id="vvP-Gi-eqw">
+                                                    <rect key="frame" x="184" y="0.0" width="200" height="119"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.28595279299999998" green="1" blue="0.28623440119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="rrg-ow-XVe" kind="show" id="gmH-Dk-A5I"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="2DU-GB-WEF">
+                                        <rect key="frame" x="0.0" y="520" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2DU-GB-WEF" id="mJM-Xi-lyh">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="西涼x馬叔叔——馬超" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkb-AY-xke">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="馬超" translatesAutoresizingMaskIntoConstraints="NO" id="SkX-Y8-888">
+                                                    <rect key="frame" x="201" y="0.0" width="162" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.28595279299999998" green="1" blue="0.28623440119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="U1o-jU-bK4" kind="show" id="DlI-o0-jZB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Zwg-V1-ON8" id="Ohd-w6-mv6"/>
+                            <outlet property="delegate" destination="Zwg-V1-ON8" id="Fwr-i7-Qdx"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zQJ-Mr-Dgj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4317.6000000000004" y="192.95352323838082"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qg2-LF-tEX">
+            <objects>
+                <viewController id="BT3-0a-5rO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Q8-LB-l29">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="漢中王x劉皇叔——劉備" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufe-Bh-g8f">
+                                <rect key="frame" x="77" y="78" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="劉備" translatesAutoresizingMaskIntoConstraints="NO" id="Nfr-4b-Xwd">
+                                <rect key="frame" x="36" y="149" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2XC-3P-YIe">
+                                <rect key="frame" x="56" y="427" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">劉備字玄德，涿郡涿縣人，祖先是漢景帝的兒子─中山靖王劉勝，到他這一帶，家業已敗落，只能靠與母親一齊販履織席來維持生活。劉備身高七尺五吋，垂手過膝，大耳自見，為人寬厚，胸懷大志，沉默少言，喜好結交豪俠人物。
+
+    公元一八四年，黃巾起義爆發，劉備與關羽、張飛意氣相投，在桃園結拜兄弟，對天盟誓，同生死，共創業。不久，劉備因鎮壓黃巾有功，被任命為安喜縣尉，後又坐下密縣丞等小官，被黃巾軍餘部打敗後，失官。劉備乃投靠公孫瓚。後因劉備拒助袁紹有功，作平原相。
+
+    公元一九三年，曹操東征徐州，劉備隨田楷救援陶謙。陶謙十分感謝劉備的到來，又非常看重劉備的才能，就舉薦劉備為豫州刺使，屯駐在小沛。第二年，陶謙病故，陳登、孔融等人擁戴劉備為徐州牧。曹操為了拉攏劉備抵禦袁術，上表薦劉備為鎮東將軍、宜城亭侯。至此，劉備成了逐鹿群雄之一。
+
+    不久，呂布被曹操擊敗，來投劉備，劉備寬大為懷，收容了呂布。後來在與袁術開暫時，呂布竟然叛變，打敗劉備，佔領徐州，劉備就不得不投靠曹操。曹操就表薦劉備為豫州牧，撥數千兵馬，讓他重回小沛對抗呂布，結果又遭失敗。一九八年，曹操消滅呂布，隨曹操來到許都。曹操認為劉備是一個不可小覷的英雄，對他很不放心，但是曹操表面上竭力拉攏劉備，還表薦劉備為左將軍。受到如此待遇，劉備感到惶恐不安，所以後來乾脆在後園種起菜來。一天，劉備正在後園澆水，曹操派人請他去喝酒。酒酣之時，曹操忽然問劉備誰可稱了上當今英雄？劉備歷數袁術、袁紹、劉表、孫策、劉璋、呂布、張魯等。曹操連連搖頭，說：「當今英雄，只有你我兩人！」聽了此話，劉備嚇的手一鬆，筷子掉到了地上。正在此時，響了一陣驚雷，劉備乘機解釋說是害怕雷聲才掉筷子的，才擺脫尷尬的局面。
+
+    公元一九九年，劉備主動向曹操提出：南下徐州，截擊袁術。曹操同意，淡又派了朱靈、路招與劉備同行，以監視和牽制他。劉備很快就取得勝利，他把朱靈、路招派回許都報捷，把他們支走了。劉備殺死徐州刺使車胄，公開反叛曹操，計劃北聯袁紹，夾攻許都。
+
+    公元二○○年，曹操親征劉備，劉備大敗，妻子被擄，關羽也被衝散，投降了曹操，劉備只得投靠袁紹。官渡之戰中，關羽為曹操斬殺了袁紹的名將顏良、文醜，袁紹轉恨劉備。正在此時，劉辟、龔都在汝南起兵，騷擾曹軍後方。劉備向袁紹請求去汝南聯絡劉辟，袁紹同意。劉備南下，遇到了從曹營逃出的二弟關羽、夫人以及三弟張飛、舊友趙雲。
+
+    袁紹敗後，劉備也被曹操擊敗，只好又投荊州劉表。劉備在荊州一住就是七年，有一次，他在廁所發現自己髀裡肉生，慨然流涕。劉表問他為何流淚？劉備說：過去身不離鞍，髀肉皆消。如今不再騎馬，髀肉復生。歲月流逝，老之將至，可是功業不成，所以生悲。劉表就給了劉備一支軍隊，屯軍新野，抵禦曹軍。
+
+    在荊州寄居的這一段時間裡，劉備認真的總結了前幾次失敗的教訓，感到要想事業成功，非有王佐之才輔助不行。二○七年冬，劉備拜訪襄陽名士司馬徽，司馬徽像他推薦了諸葛亮和龐統，徐庶又說諸葛亮常常自比於管仲、樂毅。於是劉備冒著嚴寒風雪，帶關羽、張飛親自到襄陽隆中臥龍崗求見臥龍先生─諸葛亮。 前兩次都撲了空，第三次才見到諸葛亮，諸葛亮本不想出山，但為劉備的一片誠意所感動，幫他分析了中原曹操、江東孫權、荊州劉表、漢中張魯、益州劉璋的優劣得失，並替劉備制定出了戰略總方針。劉備有了諸葛亮的輔佐，如魚得水，事業開始有了轉機。
+
+    公元二○八年七月，曹操率大軍南下，攻打荊州。恰在此時，劉表去世，劉琮繼立為荊州牧，劉琮懼怕曹操，救投降了。曹操進了宛城，劉備才得知劉琮已降，馬上率眾從樊城撤退。諸葛亮勸劉備攻取荊州，劉備以劉表新亡，不忍背信棄義。劉備一向以愛民著稱，荊州人民大多願隨劉備逃難，所以每天只能行走十多里。曹操恐劉備占了江陵，曹操恐劉備占了江陵，親率了五千輕騎兵以一日一夜三百里的速度追來。劉備大敗，帶諸葛亮、張飛、趙雲等人逃走。曹操佔領江陵，企圖一舉掃平江南。孫權也感到了威脅，派魯肅來見劉備，希望兩家聯合，共破曹操。
+
+    公元二○八年十一月，曹軍與孫劉聯軍大戰於赤壁，聯軍以火攻大破曹軍，然後水路並進，曹操率殘兵敗將狼狽竄。劉備乘勝攻取了荊州南部的武陵、長沙、桂陽、零陵四郡，孫權的軍隊則佔領了荊州的北部地區。劉備推劉琦為荊州刺史，不久劉琦病死，劉備自領荊州牧。孫權承認了劉備的地位，並把妹妹嫁給了他，目的為加強雙方聯盟關係，藉劉備之力抵抗曹操。
+
+    公元二一一年三月，曹操進攻漢中，討伐張魯。劉璋非常害怕，就派法正前往迎接劉備。劉備遂留諸葛亮、關羽、趙雲守衛荊州，自率步騎數萬人，以龐統為軍師，隨法正進入益州。公元二一二年十二月，龐統向劉備提出上、中、下三條計策：上策為秘密派出精銳部隊，直接襲擊成都；中策為假稱荊州有急，誘殺楊懷、高沛，吞併白水軍，再向成都進軍；下策為撤軍至白帝，與荊州聯合，在圖進取。劉備決定按中策進行。正好曹操攻打孫權，孫權要劉備回軍救援。劉備乘機寫信給劉璋，要求增派一萬軍隊及糧草物資，以便東歸。劉璋答應只給四千人馬，劉備很不高興，以此激怒部下，此時張松被人告發，劉璋處死張松、與劉備斷絕關係。劉備大怒，殺死了楊懷、高沛，吞併了他們的軍隊，進祝涪城。公元二一四年，諸葛亮與劉備會師於成都城下，劉璋被迫投降，益州全為劉備所有。
+
+    公元二一五年，孫權向劉備索要荊州，劉備藉口說正準備攻取涼州，等涼州平定，一定歸還荊州。孫權當然不信，派魯肅、呂蒙爭奪荊州。正在此時，傳來消息，曹操要攻打漢中張魯，劉備怕益州有失，派使節向孫權請求和解，重建友好同盟。於是將湘水以東的長沙、江夏、桂陽三郡歸孫權，湘水以西的南郡、零陵、武陵三郡歸劉備。
+
+    公元二一五年十一月，張魯向曹操投降，漢中地區全歸曹操，使劉備向北方擴張勢力受到限制。曹操認為益州不易攻取就派夏侯淵為主帥鎮守漢中，自己班師回朝了。二一七年，劉備同法正、趙雲、黃忠帥乒進攻漢中。二一九年正月，劉備從陽平關渡過沔水，沿著山路，向前推進，在定軍山紮營。夏侯淵領兵前來爭奪，劉備命黃忠在高處擂鼓吶喊，發動攻擊，曹軍大敗，夏侯淵被殺。劉備與曹軍相持一個多月，曹軍士氣低落，逃亡的日漸增多，曹操只好引軍北還長安，劉備就佔領了漢中地區。
+
+    二一九年七月，劉備在沔陽自稱漢中王， 命魏延鎮守漢中，自己返回成都。與此同時，關羽在荊州對曹軍發動猛攻。他利用暴雨成災，水淹于禁等七軍；擒于禁，斬龐德，圍曹仁、呂希于樊城、襄陽。曹操大為恐慌，後來他派人聯絡孫權，挑動孫權出擊荊州，從背後襲擊關羽。最後關羽敗走麥城，被孫軍執殺，荊州全部丟掉。
+
+    二二○年，曹操病逝，其子曹丕廢除漢獻帝，自稱皇帝，建立魏國。許靖、諸葛亮等人齊勸劉備稱帝，繼承漢統。二二一年，劉備在成都西北郊的武擔舉行即位典禮，國號漢，年號章武，立劉禪為皇太子，諸葛亮圍丞相，張飛為車騎將軍，分居文官、武將之首。
+
+    稱帝不久，劉備為替關羽報仇，奪回荊州，決定率軍親征孫權。蜀漢文武群臣紛紛勸阻，劉備一概不聽，孫權求和，也被劉備拒絕。張飛思念關羽，鞭打將卒，部下將他殺死，投了東吳。劉備痛上加痛，遂一意孤行，率軍東下。公元二二二年正月，劉備率軍來到秭歸。他一方面派馬良拉攏當地少數民族首領，爭取他們出兵助蜀攻吳；一方面統領大軍自江南攀山越嶺，向東進軍，深入吳境達五、六百里。吳君主率陸遜誘敵深入。然後堅守不戰，雙方一直相持了七、八個月，蜀軍疲倦不堪。陸遜乘機以火攻燒毀蜀軍營帳，蜀軍大亂，吳軍進攻，大獲全勝。史稱夷陵之戰。劉備逃到白帝城，羞愧難當，加上年老和勞累，終於一病不起了。
+
+    公元二二三年二月，劉備自知將不久於人世，派人去成都招請丞相諸葛亮，安排後事。他對諸葛亮說：「你的才能勝過曹丕十倍，必能安邦定國，完成統一大業。如嗣子劉禪可以輔佐，你就輔佐他；如果不行，你可取而代之。」諸葛亮痛哭流涕，答應全力輔佐幼主。劉備又把劉禪和其他兒子叫到面前，囑咐他們認真讀書，把丞相看成父親。四月，劉備死於白帝城永安宮 ，終年六十三歲，諡號為昭烈皇帝，葬於惠陵。
+
+    劉備在東漢末年群雄紛爭的環境下，以帝室之胄、布衣之身，白家起家。為興復漢室，他思賢若渴，總攬英雄，百折不撓，終與曹、孫三分天下。只可惜晚年，一心為兄弟報仇，招致夷陵之敗，創業僅半，含恨去世。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470428939" green="0.85847123338626519" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="1yH-kM-tSs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZE-5y-PCm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4972" y="199.25037481259372"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="faK-Be-nYj">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gNj-9P-Zax" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="64o-BC-aFU">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Kdi-ho-Ucg" kind="relationship" relationship="viewControllers" id="on2-vi-IwQ"/>
+                        <segue destination="Ffy-UY-ciq" kind="relationship" relationship="viewControllers" id="Bqe-y0-hc6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dsy-ZR-TXg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040.8" y="192.95352323838082"/>
+        </scene>
+        <!--名將傳-->
+        <scene sceneID="RnN-d6-LOc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kdi-ho-Ucg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="名將傳" id="CRp-4e-WcW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3bh-G5-TQt">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Hgj-Xl-17c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZbB-9h-V08" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="192.95352323838082"/>
+        </scene>
+        <!--大事記-->
+        <scene sceneID="ADg-CV-xuh">
+            <objects>
+                <tableViewController id="Ffy-UY-ciq" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="OJZ-s8-ui0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="f9q-7l-nGQ">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="2Dh-zd-0Oj">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Dh-zd-0Oj" id="WbX-1o-dVH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="黃巾之亂(184年~192年)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUh-cd-zy2">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ioh-PV-RGJ">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ioh-PV-RGJ" id="CbG-7k-oTM">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="十常侍之亂(189年)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFK-i2-4SX">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.72088870159999996" green="1" blue="0.98338622320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="a8h-Y6-f7z">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a8h-Y6-f7z" id="n1q-bh-qEv">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="董卓專政(189年)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohX-wE-kYe">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="1" green="0.92771508599999997" blue="0.68106749629999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bji-lu-dzF">
+                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bji-lu-dzF" id="YtW-Ng-oZi">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="十八路諸侯(190年)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYa-iZ-hgi">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="38j-4n-2Qo">
+                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="38j-4n-2Qo" id="0UM-qg-Dkd">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="虎牢關之戰(190年)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUr-Hg-Lrw">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.82419683109999997" green="0.78472652600000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bKZ-NE-HWX">
+                                        <rect key="frame" x="0.0" y="220" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bKZ-NE-HWX" id="Ymq-Vs-XDR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="連環計(192年)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXc-JV-8G2">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.68233079659999996" green="1" blue="0.71113980939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="323" id="HIu-Y7-Hum">
+                                        <rect key="frame" x="0.0" y="264" width="375" height="323"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HIu-Y7-Hum" id="bG1-EZ-cjc">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="322.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="太多了不想做了&gt;&lt;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMP-Aj-7T3">
+                                                    <rect key="frame" x="0.0" y="-1" width="375" height="45"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="螢幕快照 2018-10-12 下午3.05.24" translatesAutoresizingMaskIntoConstraints="NO" id="wq1-CO-vEf">
+                                                    <rect key="frame" x="0.0" y="44" width="375" height="279"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Ffy-UY-ciq" id="jc5-N7-BuX"/>
+                            <outlet property="delegate" destination="Ffy-UY-ciq" id="Nhz-xl-iBx"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="大事記" id="2tW-wz-l4c"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UYG-gH-EVN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-298.39999999999998" y="976.46176911544239"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="URG-7P-kz0">
+            <objects>
+                <viewController id="RR7-fs-Lj1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wOi-WU-grY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="武聖x漢壽亭侯——關羽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Tx-lD-XZb">
+                                <rect key="frame" x="77" y="77" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="關羽" translatesAutoresizingMaskIntoConstraints="NO" id="b5K-H8-lHH">
+                                <rect key="frame" x="36" y="152" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="swy-Ai-3bc">
+                                <rect key="frame" x="56" y="434" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">關羽（163－219年），約生於東漢桓帝年間，字雲長，本字長生，河東解縣人（今山西運城市）。東漢末年劉備的重要將領，死後受民間推崇，又經歷代朝廷褒封，被人奉為關聖帝君，簡稱關帝君、關帝。佛教界一般奉其為護法神之一，稱為伽藍菩薩。民間普遍認為關羽與劉備、張飛是結義兄弟，關羽排行第二，俗稱其為關老爺、關二爺、關二哥等等。
+追隨劉備
+關羽早年因犯事逃離家鄉至幽州涿郡。中平元年（184年），劉備在涿縣組織起了一支義勇軍參與撲滅黃巾軍的戰爭，關羽與張飛同在其中，擔任劉備的貼身衛士。劉備輾轉擔任許多官職後，投奔昔日同窗公孫瓚，被封為平原國相，關羽、張飛任別部司馬，分統部曲。三人情同兄弟，常一起同床而睡，當劉備坐下時，關、張二人更不辭辛勞隨身守護。
+後劉備領徐州，在建安元年（196年）被袁術、呂布夾攻，關羽便跟隨劉備一起投奔曹操。198年，劉備與曹操一同在下邳圍攻呂布；據《蜀記》及《華陽國志》記載，關羽曾向曹操要求娶秦宜祿的前妻，曹操答應。到將破城時，又數次向曹操說，曹操便想看她是否真的十分美麗。到城破後便先去看看她，見她有美色，便自己留下來，關羽心裡不太舒服。後來曹操任車冑為徐州刺史，關羽與劉備便和曹操班師。後袁術北上投奔袁紹，劉備奉曹操命攔截袁術於徐州，劉備趁機襲殺車冑，命關羽守下邳、領徐州，劉備返回小沛。
+降曹
+建安五年（200年），劉備被曹操擊敗，關羽被擒，曹操為留關羽為己用，待以厚禮，任命為偏將軍。後袁紹派大將顏良率淳于瓊、郭圖等攻白馬，曹操親自率軍救援，並命張遼與關羽為前鋒。關羽望見顏良的麾蓋，策馬衝鋒，刺殺顏良於萬軍之中，並斬其首，袁軍將領無人能擋，白馬之危被解，關羽被封為漢壽亭侯。
+初時，曹操為知道關羽有沒有久留的心意，較張遼用人情試。張遼問關羽，關羽嘆息道：「我極知道曹公待我厚愛，但我受劉備將軍的厚恩，發誓共死，不可背棄。我終不會留下，我要曹公立下功勞才離去。」張遼便向曹操表明。現在關羽刺殺顏良，曹操知道他會離去，反而重加賞賜，想要留住他，但關羽盡封曹操的賞賜，留書告辭，回到劉備身邊。曹操左右欲追殺之，不過曹操認為各為其主而阻止。民間文化把這一段故事叫做「千里走單騎」。
+鎮守荊州
+劉備投靠劉表，屯兵於新野。建安十三年（208年），曹操南下，劉備南逃，另遣關羽乘數百艘船駛向江陵會合，但劉備於途中被曹操軍追至，幸而關羽駛至漢津，一同乘船至夏口。劉備聯合孫權擊敗曹操後，曹操留曹仁等防守荊州，於是劉備又與孫權大將周瑜夾攻曹仁，命關羽斷曹仁後路。待劉備取得荊南，關羽被封元勳，為襄陽太守、盪寇將軍，這其間襄陽實為曹操勢力範圍，所以駐於江北。劉備平定蜀地後，授權關羽掌管荊州地區中劉備控制的部分，包括荊州南部四州和從東吳借來的荊州治所江陵和附近的公安。
+建安二十年（215年），孫權對北方戰爭失利，轉向劉備索要荊州等地，劉備拒絕。孫權遂命呂蒙進攻荊州南部，魯肅於益陽牽制關羽，劉備從益州帶兵回援。這時曹操進取漢中的張魯，劉備迅速和孫權修和，協議平分荊州，但雙方關係已趨惡化。孫權方仇視劉備、關羽君臣。
+威震華夏
+219年，劉備稱漢中王，封關羽為前將軍，假節鉞。同年關羽進攻荊州北部樊城，曹操派大將于禁援救，時大雨令漢水暴漲，于禁所率領的七軍都被大水淹沒，關羽乘座大船進行攻擊，于禁因為窮迫，於是向關羽投降，龐德則被關羽所獲，因不向關羽投降而被關羽殺害，關羽還進一步圍困曹軍大將曹仁於樊城，並另派遣軍隊包圍襄陽。當時曹操治郡下許多義軍早已受關羽遙控，更有許多叛亂都想引關羽為援，關羽威震華夏。
+敗走麥城
+建安二十四年（219年）十月，曹操欲自許遷都避關羽鋒芒，司馬懿、蔣濟等勸阻，認為孫權必然不願看到關羽坐大，可聯合孫權牽制關羽。孫權果然因為覬覦荊州而襲擊關羽後方。曹操仍不放心，動員徐晃、張遼等將，及袞州刺史裴潛、豫州刺史呂貢等率軍救援樊城，更準備親自征討關羽。而孫權也動員所有主力部隊，命呂蒙為主帥偷襲荊州，並親自率軍前往荊州以為後援，荊州重鎮江陵守將麋芳、公安守將士仁因與關羽有嫌隙而不戰而降，孫權手下呂蒙、陸遜等遂次第攻陷荊州各地。
+關羽因後方生變，又和徐晃作戰失利，於是解除對樊城的包圍南撤，但水軍仍然控制漢水。關羽軍隊家屬多在荊州，得知荊州失陷，士卒漸漸潰散，退至麥城。十二月，關羽率數十騎一路突圍至距益州不過一二十里的臨沮（今湖北省襄樊市南漳縣），遇馬忠埋伏，被捕，於臨沮被斬。孫權將關羽首級送交曹操，而曹操以諸侯之禮將關羽的屍骸下葬。景耀三年（260年）九月，蜀漢後主劉禪追諡關羽為「壯繆侯」。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="2ra-uY-k4R"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a48-b4-kty" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5655" y="199"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WVn-1H-2zm">
+            <objects>
+                <viewController id="z32-7S-0Jm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsO-Lh-r7J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="龍膽x七進七出——趙雲" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qh-x9-sft">
+                                <rect key="frame" x="77" y="76" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="趙雲" translatesAutoresizingMaskIntoConstraints="NO" id="jVr-Ko-jOz">
+                                <rect key="frame" x="36" y="159" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yYV-f6-eCM">
+                                <rect key="frame" x="56" y="430" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">趙雲(?-229年)，字子龍，常山真定(今河北省正定)人。身長八尺，姿顏雄偉，蜀漢五虎上將之一。
+
+漢末軍閥混戰，趙雲受本郡推舉，率領義從加入白馬將軍公孫瓚。期間結識了漢室皇親劉備，但不久之後，趙雲因為兄長去世而離開。趙雲離開公孫瓚大約七年左右的時間，在鄴城與劉備相見，從此追隨劉備。
+
+趙雲跟隨劉備將近三十年，先後參加過博望坡之戰、長坂坡之戰、江南平定戰，獨自指揮過入川之戰、漢水之戰、箕谷之戰，都取得了非常好的戰果。除了四處征戰，趙雲還先後以偏將軍任桂陽太守，以留營司馬留守公安，以翊軍將軍督江州。
+
+
+ 
+除此，趙雲於平定益州時引霍去病故事勸諫劉備將田宅歸還百姓，又於關羽張飛被害之後勸諫劉備不要伐吳。趙雲死後，劉禪又下令追諡趙雲，姜維以「柔賢慈惠曰順，執事有班曰平，克定禍亂曰平」追諡趙雲為順平侯。
+
+常勝將軍
+
+史書上並沒有記載趙雲是常勝將軍的描述，但是民間自古一來就有常勝將軍趙雲的說法。
+
+
+
+所謂常勝將軍，就是每戰必勝的將軍，但是無論是歷史上還是小說《三國演義》里，趙雲都有一次打敗仗的經歷。雖然也打過敗仗，但是趙雲仍然被稱作是常勝將軍，其主要原因是趙雲在唯一的一次敗仗中沒有受到較大的損失，類似的情況在長坂坡也有發生。長坂坡之戰雖然是劉備軍戰敗了，但是在趙雲的努力下救出了劉備的夫人和孩子，而在小說中對趙雲大戰長坂坡進行了藝術加工，趙雲闖入八十多萬曹軍里無人能擋。
+
+
+ 
+箕谷之戰也是一樣，大軍已經決定撤退，為防止敵軍追擊，趙雲親自斷後，雖然年老，卻仍能斬將破敵。而在其他的戰役里，趙雲也常能在失敗的戰鬥里有突出表現。
+
+即使戰局處於劣勢，趙雲也能斬將殺敵，立於不敗之地，所以長久以來就給廣大民眾造成了趙雲不會被打敗的印象，一些民間傳說中，甚至有趙雲征戰一生，從未受傷的說法，由此可見，常勝將軍趙雲早已經深入人心了。
+
+單騎救主
+
+單騎救主是指趙雲單槍匹馬救出劉備的兒子劉禪的事情。歷史上一共發生了兩次，一次是長坂坡之戰，一次是截江救阿斗，分別發生在建安十三年與建安十四年。趙雲的單騎救主的情節常被藝術加工出現在小說、評書、戲曲等文藝作品裡。
+
+其實截江救阿斗是趙雲和張飛共同完成的，並且二人有帶領兵馬，所以嚴格來講不是單騎救主，但是受《三國演義》的影響，民間還是習慣性的將此行為也稱為單騎救主。
+
+五虎上將
+
+
+
+
+ 
+五虎上將，是指蜀漢名將里名聲最響、地位最高、能力最強的五位將軍，即關羽、張飛、趙雲、馬超、黃忠，但是廈門大學易中天教授卻在百家講壇欄目里提出了四虎將之說。
+
+陳壽在撰寫《三國志》的時候，將關張馬黃趙合為一傳，而且僅排在諸葛亮傳之後，列於蜀漢各文臣武將之首。而五位將軍又有虎將之名，關羽、張飛被稱為「熊虎之將」。
+
+趙雲被稱為「虎威將軍」，馬超「與翼德並驅爭先」，黃忠「勇毅冠三軍」，可以看出，稱這五位將軍為蜀漢五虎上將，都是有史可據的。而陳壽在寫《三國志》的時候，又先後將五位將軍評為蜀漢的「爪牙」，也就是說，關張馬黃趙就是正史所承認的蜀漢「五爪牙」。
+
+而五虎上將的稱謂也並非是先出自《三國演義》，《三國演義》之前的《三國志平話》稱其為「五虎將軍」，再往前推，元曲中就已經將這五位稱為「五將軍」或「五兄弟」。
+
+
+
+
+ 
+不管是「五虎上將」還是「五虎將軍」，其實都只是一個稱謂，一個統稱而已，關張馬黃趙這五人在蜀漢也絕對稱得上虎將的，非要計較是出自演義還是正史，是沒有意義的。
+
+除此之外，五虎將也是見於官方史料記載中的，包括《山堂肆考》、《歷代名臣傳》，而《四庫全書》的收錄再次以清代官方的身份對其做了全面的肯定，也就是說從明代開始，官方史家是認可五虎一說的。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="a98-jX-lYp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rxV-jO-12h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6308" y="198"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="247-Fx-xwg">
+            <objects>
+                <viewController id="scb-cf-VpF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3EH-IQ-YyO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="獨拒x長板橋——張飛" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byl-eH-ZJM">
+                                <rect key="frame" x="77" y="74" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="張飛" translatesAutoresizingMaskIntoConstraints="NO" id="fZb-7N-AiF">
+                                <rect key="frame" x="36" y="146" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SOG-c5-ysz">
+                                <rect key="frame" x="56" y="435" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">跟隨劉備
+184年，劉備在涿縣組織起了一支義勇軍參與撲滅黃巾軍的戰爭（詳見黃巾之亂），關羽與張飛同在其中，擔任劉備的貼身衛士。劉備輾轉擔任許多官職後，投奔昔日同窗公孫瓚，被封為平原相，時關羽、張飛任別部司馬，分統部曲。三人情同兄弟，常一起同床而睡，當劉備坐下時，關、張二人又不辭辛勞隨身守護，一站就是大半天，而關羽比張飛大，張飛常以關羽為兄長般侍奉。
+
+徐州牧陶謙死後將領地讓予劉備，期間曾與曹豹有過嫌隙。劉備於出兵防禦袁術時，留張飛守護下邳，可是張飛與陶謙舊將曹豹相爭，曹豹連絡於下邳依附劉備的呂布，加上陶謙舊部丹陽兵叛變，下邳便被呂布搶佔。張飛逃到劉備軍，又遭袁術、呂布夾攻，於是一起投靠曹操，被任命為中郎將。
+
+斷橋虎將
+198年，曹操擊敗呂布，張飛被任命為中郎將。後來劉備又被曹操打敗，張飛雖然勸得秦宜祿跟隨，但後來又想回投曹操，張飛便將他殺死。先跟隨劉備依附袁紹，後得劉表收留，屯兵於新野。208年，劉表死，曹操南下，劉備棄新野行陸路南逃，曹操派人追了一日一夜，在當陽踫上，劉備棄妻和諸葛亮、張飛、趙雲等數十騎先逃。後張飛帶領二十騎拒後，張飛斷橋、立於河邊，大叫：「身是張益德也，可來共決死！（我就是張益德了，你們可以過來決一死戰！）」無人敢上前，劉備等人才得以安然撤退。赤壁之戰後，劉備奪下荊州南部，任命張飛為宜都太守、征虜將軍，封新亭侯，後轉到南郡。
+
+奪占益州與巴西大捷
+參見：益州之戰及漢中之戰
+後來，劉備入益州，張飛曾與趙雲阻攔孫夫人帶劉禪回吳。不久劉備與劉璋反目。213年，張飛與諸葛亮、趙雲領兵分軍入蜀增援。當張飛率軍到達江州時，遇上劉璋大將嚴顏，嚴顏被張飛生擒，拒降的豪氣感動了張飛，被張飛引為上賓。大軍繼續分定諸郡縣，在德陽陌下打敗張裔軍。後推進至成都，與劉備會合。劉備取得蜀地，賜張飛黃金五百斤，銀千斤，錢五千萬，錦緞千匹，領為巴西太守。
+
+215年，曹操佔有漢中，魏將張郃率軍進入益州東北部的巴西，想遷徙當地居民到漢中，便進軍宕渠、蒙頭、盪石。張飛出兵抵抗，兩軍對峙五十多日。後來，張飛率精兵萬多人，邀張郃軍於瓦口交戰，因山道狹窄，郃前後不能相救，張郃大敗，棄馬與十餘人爬山退還南鄭，成功保住蜀土。
+
+217年冬天，劉備北伐漢中，派張飛與馬超、吳蘭等人攻打武都郡，與曹將曹洪對峙，先張聲勢言欲斷洪後為疑兵之計，但被曹休看破其計，吳蘭被打敗，張飛撤退。219年，劉備成功據有漢中，自立為漢中王，本來眾人都認為劉備會任張飛統領漢中，而張飛也有此看法，但劉備卻命魏延為漢中太守，拜張飛為右將軍，假節。不久，關羽被孫權所殺。
+
+被部將所害
+221年，劉備稱帝，張飛遷為車騎將軍，領司隸校尉，進封西鄉侯。同年，劉備稱為關羽報仇，東征東吳，張飛在閬中準備出兵會師江州。臨近出發時，被其麾下將領張達、范彊謀殺，兩人帶其首級投奔孫權。劉備聽到張飛營都督署名的急報上奏，大叫：「噫！飛死矣(啊，張飛死了)。」260年九月，追諡為桓侯。
+
+其遺體軀幹被埋葬在閬中，頭顱埋葬在雲陽，並分別建有張桓侯祠和張桓侯廟，因此後人又稱張飛「頭在雲陽，身在閬中」。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="nJT-hM-3ax"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="If7-04-n0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7007" y="199"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ra0-lq-M4M">
+            <objects>
+                <viewController id="U1o-jU-bK4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pmS-KX-aQG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="西涼x馬叔叔——馬超" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijt-oe-yFr">
+                                <rect key="frame" x="77" y="78" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V7G-p8-kW2">
+                                <rect key="frame" x="56" y="439" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">馬超字孟起，扶風茂陵人。初平三年，其父馬騰受封為征西將軍，屯郿縣。後騰襲長安，兵敗出走西涼。建安十三年曹操任丞相後‧積極南征，但對關中和西涼的割據勢力終不放心，對馬騰父子尤其戒備，馬騰舉家遷至鄴城，只留超以領其軍。 
+
+
+
+建安十六年，曹操西討漢中張魯。關西諸將疑操欲對其不利，遂以馬超、韓遂二將為首起兵抗曹。兩軍在潼關對峙月餘，最後曹操以離間計引起馬超、韓遂二人不和。關西軍大敗，馬超逃至涼州。 
+
+
+
+馬超兵敗後重整旗鼓，攻打隴西一帶。其後兵敗投靠張魯。而曹操亦於建安十七年誅殺其父馬騰，夷其三族。三國演義中，曹操是先殺馬騰，而後超起兵為父報仇。這是羅貫中希望突出馬超之起兵乃為父報仇。而另一方面亦可把曹操寫成為陷害忠良的奸臣。 
+
+
+
+建安十九年，張魯部將楊昂因忌馬超才能，而屢屢向魯進讒。馬超恐張魯對其加害，遂投劉備。適備圍成都，超遂自請為先鋒以攻城。城中軍民大驚。 
+
+
+
+劉備稱帝後，拜馬超為驃騎將軍，領涼州牧，進封斄鄉侯。 
+
+
+
+蜀漢章武二年，馬超病逝，享年四十七歲。 
+
+
+
+
+
+在三國演義中，馬超是在諸葛亮南征孟獲後，回成都前去世。與正史並不相符。 
+
+馬超來攻葭萌關。孔明對劉備說
+
+只有關羽可與馬超一戰，此一激將法馬上令張飛寫下軍令狀，孔明並
+
+派魏延同去。孔明知道張飛急躁魯莽，便與劉備一同前往。
+
+　　剛到葭萌關，張飛便與馬超大戰。二人大戰兩百回合，不分勝敗
+
+，便換馬再戰。天黑後，點上火把再戰，兩人又戰了百餘回後，誰也
+
+沒有佔到半點便宜。
+
+　　第二天，孔明到軍中，見劉備很喜歡馬超的勇敢，便設計命孫乾
+
+帶金銀珠寶去打通張魯的謀士楊松。
+
+　　楊松引孫乾見張魯，孫乾說劉備可保他為漢寧王。張魯大喜，派
+
+人令馬超停戰。馬超不聽，楊松便散布馬超的謠言，說馬超有反心，
+
+使馬超進不能進，退不能退。
+
+　　孔明遂命馬超的故人李恢前往勸降。李恢用三寸不爛之舌，說得
+
+馬超回心轉意，斬了監軍楊柏，提著楊柏的頭前來投降劉備。
+
+　　劉備大軍進到成都，劉璋見大勢已去，開門投降，劉備引軍入成
+
+都，百姓夾道歡迎。劉備做了益州牧。
+
+so就是李恢用三寸不爛之舌說服
+
+馬超加入劉備的陣營 
+
+
+
+面如冠玉，眼若流星，虎體猿臂，彪腹狼腰，獅盔獸帶，銀甲白袍，手執長槍，坐騎駿馬......他便是五虎將－－馬超 
+
+
+
+很多人心目中，馬超雖然驍悍英勇，但總像是一勇之夫，比其他人略低一個層次，其實，馬超當時是很有威望的，最初，劉備即位漢中王，封關羽，張飛，馬超，黃忠為前後左右將軍，諸葛亮曾異議為黃忠聲望素不及關馬二人，如此恐怕關羽不服，由於看出，馬超聲望之高． 
+
+其實很多人也估不到，三國時代時，趙云於蜀漢中的地位，比關張馬黃還要低，陳壽為五虎作傳也順序關張馬黃趙，但三國演義裡的趙云智勇兼備，重要性加強了，五虎大將也變成關張趙馬黃了． 
+
+馬超也不單是匹夫之勇，當時關西軍對曹軍，馬超提出正確方案但不被接納，曹操知道後大嘆：馬兒不死，吾無葬地． 
+
+
+
+馬超甚得羌胡之心，除了他有一部份羌人血統，他亦有過人之處，當劉備聽到馬超來降，大喜喟：吾得益州．馬超領兵城都，不到十天劉璋就降了，如此強大的震懾力不會是一夫之勇，劉璋抗劉備近將三年，為何一見馬超就嚇得投降？ 
+
+
+
+後來諸葛亮給關羽的信中亦說：”孟起兼資文武，雄烈過人，一世之杰．”也給予很高評價． 
+
+
+
+最後，馬超是何時死呢？三國演義並無說明，劉備伐吳時，馬超倒未有露面，較後幾回諸葛亮安居平五路曾邀馬超緊守西平關對付羌兵．八十七回，諸葛亮南征孟獲，又讓馬超把守漢中關口，九十二回，諸葛亮一出祁山，才於沔陽致祭馬超，始終也未有交代馬超之死，其實馬超死於章武二年，享年四十七歲，當時劉備正領兵於東吳作戰，馬超臨終上疏，說自己一家二百余口，差不多全死於曹操之手，只剩從弟馬岱深托劉備，從此相信馬超可能是病死的． 
+
+
+
+五虎大將中，馬超算是比較短命的一個，如此英雄豪傑未能一展抱負報國恨，最後連家仇亦不能報，英雄氣短，確實令人婉惜． 
+
+
+
+馬超並非病逝,而是西涼暴動,馬超殺了叛臣韋康,而梁寬與趙瞿又起而為之報仇,孟起就在亂軍肆虐之下慘死.....</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="馬超" translatesAutoresizingMaskIntoConstraints="NO" id="vQ7-TM-AHQ">
+                                <rect key="frame" x="75" y="149" width="224" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Wey-vb-h3C"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T9g-lw-uSA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7684" y="198.35082458770617"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vLI-DR-FxM">
+            <objects>
+                <viewController id="rrg-ow-XVe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vvm-iI-yt0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="老漢x推車——黃忠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imc-6m-pdF">
+                                <rect key="frame" x="77" y="79" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8yn-Qz-PQB">
+                                <rect key="frame" x="56" y="435" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">黃忠(?? — 220年)，字漢升，荊州南陽（今河南省南陽市）人。三國時期蜀漢著名將領。     
+
+黃忠原在荊州軍閥劉表麾下任職中郎將，與劉表從子劉磐共守長沙攸縣。及後曹操南侵荊州，仍擔故任，假行裨將軍，統屬於長沙太守韓玄手下。
+
+
+
+赤壁之戰後，劉備征荊南四郡。武陵太守金旋、長沙太守韓玄、桂陽太守趙範及零陵太守劉度投降。黃忠侯隨韓玄投靠劉備，並隨劉備軍隊入川。後劉備與劉璋決裂，黃忠於葭萌關受任進攻成都，作戰時身先事卒、勇冠三軍。益州定後，被封為討虜將軍。
+
+
+
+219年，劉備北攻漢中時，黃忠在定軍山戰役中，對著魏軍將領夏侯淵的精英部隊，仍帶領士卒奮勇殺敵，更斬殺夏侯淵，大敗曹軍，被升為征西將軍。同年，劉備稱漢中王，改封黃忠為後將軍，賜關內侯，與張飛、馬超、關羽同位。黃忠次年病死。追諡剛侯。
+
+
+
+現在四川成都西郊營門口黃忠村，建有「黃忠墓」。
+
+
+
+三國志評曰:「黃忠、趙雲強摯壯猛，並作爪牙，其灌、滕之徒歟？」
+
+
+
+楊戲的《季漢輔臣贊》中贊黃漢升:「將軍敦壯，摧峰登難，立功立事，於時之幹。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃忠" translatesAutoresizingMaskIntoConstraints="NO" id="tte-Ix-ahh">
+                                <rect key="frame" x="75" y="160" width="224" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="oeo-eT-I4b"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xVK-a6-FUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8364" y="199"/>
+        </scene>
+        <!--魏-->
+        <scene sceneID="ny1-1j-JIy">
+            <objects>
+                <tableViewController title="魏" id="Y2s-UW-lv5" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BJS-jf-EDw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="mVp-j5-i8i">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="ury-Vm-8mg">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ury-Vm-8mg" id="c1e-2u-qxa">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="魏武帝x腹黑王——曹操" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmC-fk-PlS">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="曹操" translatesAutoresizingMaskIntoConstraints="NO" id="ME0-sB-4kh">
+                                                    <rect key="frame" x="184" y="0.0" width="207" height="119"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Qc4-cz-ckg" kind="show" id="gHI-eS-K0j"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="La2-9z-z6N">
+                                        <rect key="frame" x="0.0" y="104" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="La2-9z-z6N" id="3h8-6o-e2S">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="合淝x戰神——張遼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFP-df-LRP">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="張遼" translatesAutoresizingMaskIntoConstraints="NO" id="OQj-wr-QNR">
+                                                    <rect key="frame" x="247" y="-7" width="89" height="111"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="FRj-ye-AXP" kind="show" id="ngq-Dl-vRf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="p6M-Vh-1ax">
+                                        <rect key="frame" x="0.0" y="208" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p6M-Vh-1ax" id="r4U-FX-vvy">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="被抓到x就投降——于禁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJ3-Fm-87V">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="于禁" translatesAutoresizingMaskIntoConstraints="NO" id="VHq-d7-lmu">
+                                                    <rect key="frame" x="173" y="0.0" width="236" height="103"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="t5C-BI-TXr" kind="show" id="cIA-Bj-7DZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="PVz-Dm-oto">
+                                        <rect key="frame" x="0.0" y="312" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PVz-Dm-oto" id="ERz-qM-s3G">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大斧x良將——徐晃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBO-B5-wLj">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="徐晃" translatesAutoresizingMaskIntoConstraints="NO" id="Idp-XW-IDl">
+                                                    <rect key="frame" x="183" y="-20" width="214" height="124"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Ph3-oV-nKD" kind="show" id="xXW-Sk-VpJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="AJu-fK-4Ua">
+                                        <rect key="frame" x="0.0" y="416" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AJu-fK-4Ua" id="1SK-yF-ghO">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="越老x越強——張郃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1e0-Kb-ouk">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="張郃" translatesAutoresizingMaskIntoConstraints="NO" id="UgI-jj-rzg">
+                                                    <rect key="frame" x="233" y="-1" width="104" height="104"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="FgY-9S-W7F" kind="show" id="anz-fu-UgD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="scu-eg-7NY">
+                                        <rect key="frame" x="0.0" y="520" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="scu-eg-7NY" id="X0b-l9-pqW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="到底念樂x還是念樂——樂進" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzE-Ei-DZQ">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="樂進" translatesAutoresizingMaskIntoConstraints="NO" id="nVK-EM-wey">
+                                                    <rect key="frame" x="201" y="0.0" width="162" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="8pJ-a5-Rwj" kind="show" id="uwb-Kh-t02"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Y2s-UW-lv5" id="LZW-zs-OBM"/>
+                            <outlet property="delegate" destination="Y2s-UW-lv5" id="ARa-Tn-tyd"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYv-eW-5v9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4317.6000000000004" y="864.91754122938539"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C4I-ej-2zw">
+            <objects>
+                <viewController id="Qc4-cz-ckg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bRr-15-3va">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="魏武帝x腹黑王——曹操" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Bb-iY-XNF">
+                                <rect key="frame" x="77" y="78" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="曹操" translatesAutoresizingMaskIntoConstraints="NO" id="4pD-pf-Qvq">
+                                <rect key="frame" x="36" y="149" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TtE-Kz-RyT">
+                                <rect key="frame" x="56" y="427" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">曹操（155年－220年3月15日），字孟德，一名吉利，小字阿瞒，沛国谯县（今安徽亳州）人，汉族。东汉末年杰出的政治家、军事家、文学家、书法家，三国中曹魏政权的缔造者。曹操出生在官宦世家，为汉相曹参之后，曹操的父亲曹嵩是曹腾的养子，汉灵帝时官至太尉，历侍四代皇帝，有一定名望，汉桓帝时被封为费亭侯。公元216年（建安二十一年）夏四月，汉献帝册封曹操为魏王，邑三万户，位在诸侯王上，奏事不称臣，受诏不拜，以天子旒冕、车服、旌旗、礼乐郊祀天地，出入得称警跸，宗庙、祖、腊皆如汉制，国都邺城。王子皆为列侯。他名义上还为汉臣，实际上已是皇帝。公元215年，张鲁出降曹操，汉中遂为曹操所有。公元219年，曹军与刘备军相距数月，无利，遂放弃汉中。公元219年，襄樊会战结束。公元220年（建安二十五年）正月，曹操还军洛阳。当月，病逝在洛阳，终年六十六岁，谥曰武王。曹丕称帝后，追尊为武皇帝，庙号太祖。
+
+人物生平
+　　早年经历
+　　曹操出生在官宦世家，为汉相曹参之后，曹操的父亲曹嵩是曹腾的养子，汉灵帝时官至太尉，历侍四代皇帝，有一定名望，汉桓帝时被封为费亭侯，《三国志·武帝纪》中说曹嵩“莫能审其本末”，而在宋人裴松之注《三国志》时间接引用三国吴人所著《曹瞒传》中称曹嵩本姓夏侯，但此说法可信度不高。曹嵩继承了曹腾的侯爵。年轻时期的曹操，机智警敏有随机权衡应变的能力，而且任性好侠、放荡不羁，不修品行，不研究学业，所以当时的人不认为他有什么特别的才能，只有梁国的桥玄等人认为他不平凡，桥玄对曹操说：“天下将乱，非命世之才不能济也，能安之者，其在君乎？”南阳何颙对他说：“汉室将亡，安天下者，必此人也！”南阳的许劭以知人著称，他也曾对曹操说过：“君清平之奸贼，乱世之英雄”曹操早年就表现出对武艺的爱好与才能，曾经潜入张让家，被张让发觉后，手舞著戟越墙逃出，全身而退。又博览群书，尤其喜欢兵法，曾抄录古代诸家兵法韬略，还有注释《孙子兵法》的《魏武注孙子》著作传世。这些活动为他后来的军事生涯打下了稳健的基础。
+　　崭露头角
+　　公元174年【甲寅年】（熹平三年），二十岁的曹操被举为孝廉，入京都洛阳为郎。不久，被任命为洛阳北部尉。洛阳为东汉都城，是皇亲贵戚聚居之地，很难治理。曹操一到职，就申明禁令、严肃法纪，造五色大棒十余根，悬于衙门左右，“有犯禁者，皆棒杀之”。皇帝宠幸的宦官蹇硕的叔父蹇图违禁夜行，曹操毫不留情，将蹇图用五色棒处死。于是，“京师敛迹，无敢犯者”。但是曹操也因此得罪了蹇硕等一些当朝权贵，碍于其父曹嵩的关系，明升暗降，曹操被调至远离洛阳的顿丘（今河南清丰）。任顿丘令。这一年，曹操二十三岁。多年后曹操给其子曹植的一封书信《戒子植》写道：“吾昔为顿丘令，年二十三，思此时所行，无悔于今。今汝年亦二十三矣，可不勉欤！”公元178年（光和元年），曹操因堂妹夫濦强侯宋奇被宦官诛杀，受到牵连，被免去官职。其后，在洛阳无事可做，回到家乡谯县闲居。公元180年（光和三年），曹操又被朝廷征召，任命为议郎。此前，大将军窦武、太傅陈蕃谋划诛杀宦官，不料其事未济反为宦官所害。曹操上书陈述窦武等人为官正直而遭陷害，致使奸邪之徒满朝，而忠良之人却得不到重用的情形，言辞恳切，但没有被汉灵帝采纳。尔后，曹操又多次上书进谏，虽偶有成效，但东汉朝政日益腐败，曹操知道无法匡正。
+　　公元184年【甲子年】（中平元年），黄巾起义爆发，曹操被拜为骑都尉，受命与皇甫嵩等人合军进攻颍川的黄巾军，结果大破黄巾军，斩首数万级。随之迁为济南相。济南相任内，曹操治事如初。济南国（今山东济南一带）有县十余个，各县长吏多依附贵势，贪赃枉法，无所顾忌。曹操之前历任国相皆置之不问。曹操到职，大力整饬，一下奏免十分之八的长吏，济南震动，贪官污吏纷纷逃窜。“政教大行，一郡清平”。当时正是东汉政治极度黑暗之时，甚至有了买官制度。朝廷徵还其为东郡太守，拜为议郎，曹操不肯迎合权贵，遂托病回归乡里，春夏读书，秋冬弋猎，暂时隐居了。
+　　当时天下纷乱，先是发生了冀州刺史王芬联合南阳许攸、沛国周旌等地方豪强，谋划废黜灵帝立合肥侯的事件。王芬等人曾希望曹操加入他们，但被曹操拒绝，后来王芬事败自杀。接着，又有西北金城郡（今兰州）的边章、韩遂杀死刺史和太守，率兵十余万反叛朝廷。公元188年（中平五年），汉灵帝为巩固统治，设置西园八校尉，曹操因其家世被任命为八校尉中的典军校尉。
+　　陈留起兵
+　　公元189年（中平六年），汉灵帝驾崩，太子刘辩登基，何太后临朝听政。大将军何进想趁灵帝逝世、宦官失势之机诛灭阉党，但没有取得太后的支持。于是何进便召时任并州牧的董卓进京，胁迫何太后同意。然而此举打草惊蛇，董卓尚未抵达京城，何进已被宦官下手谋杀。同年九月，董卓入京，执掌朝政，把汉少帝废为弘农王，而改立其弟陈留王为汉献帝，又派人把弘农王母子毒死，自称太师，专擅朝政。曹操见董卓倒行逆施，不愿与其合作，遂改易姓名逃出京师洛阳（今河南洛阳东）。曹操到陈留后，“散家财，合义兵”，且首倡义兵号召天下英雄讨伐董卓。
+　　公元190年（初平元年）正月，袁术等人共推渤海太守袁绍为盟主，曹操任代理奋武将军，参加讨董军。二月，被联军击败的董卓胁迫献帝迁都长安（今陕西西安西北），自己则焚毁宫室，挖开王陵，劫掠人民，致使洛阳方圆200里荒芜凋敝无复人烟。而关东联军惧怕董卓精锐的凉州军的战力，无人敢向关西推进，全都屯兵酸枣（今河南延津北）一带。而曹操认为董卓“焚烧宫室，劫迁天子，海内震动”，应趁机与之决战，遂独自引军西进。曹操行至荥阳汴水（今河南荥阳西南），与董卓大将徐荣交锋，因为士兵数量悬殊，曹操大败，士卒死伤大半，自己也被流矢所伤，幸得堂弟曹洪所救，幸免于难。回至酸枣，曹操建议诸军各据要地，再分兵西入武关（今陕西丹凤东南），围困董卓，关东诸将不肯从。关东诸军名为讨董卓，实际各自心怀鬼胎，意在伺机发展自己势力。不久，诸军之间发生摩擦，相互火拼。联合军至此解散。公元191年（初平二年），曹操在东郡大败于毒、白绕、眭固、於扶罗等，袁绍表其为东郡太守。
+　　公元192年（初平三年），青州黄巾军大获发展，连破兖州郡县，阵斩兖州刺史刘岱。济北相鲍信等人迎曹操出任兖州牧。曹操和鲍信合军进攻黄巾。鲍信战死。曹操“设奇伏，昼夜会战”，终于将黄巾击败。当年冬天，获降卒三十余万，人口百余万。曹操收其精锐，组成军队，号青州兵。又助袁绍打败刘备、单经及陶谦诸军。公元193年（初平四年）春天，曹操在匡亭六百里大追击大败袁术、黑山军、南匈奴。徐州牧陶谦率军攻入兖州南部的任城，曹操率军征讨陶谦攻克徐州十余城。
+　　逐鹿中原
+　　公元193年（初平四年）秋，曹操的父亲曹嵩来曹操处路上，被陶谦派兵杀害，曹操遂进兵徐州（治郯，今山东郯城），向东南扩展势力。陶谦退守郯县。不久曹操军粮将尽，撤围回军。次年夏，曹操再征徐州，略地至东海。曹操征徐州期间，所过大肆杀戮，一路上“鸡犬亦尽，墟邑无复行人”。东郡守备陈宫对曹操不满，于是与陈留太守张邈、张邈之弟张超、从事中郎许汜及王楷等同谋叛乱，迎吕布为兖州牧。吕布为当时名将，先为董卓部将，后与王允定计诛杀董卓。当时只有鄄城（今属山东）和东郡的范（今山东范县东南）、东阿（今山东阳谷东北）两县尚在曹操掌握之中，分别由司马荀彧和寿张令程昱、东郡太守夏侯惇等坚守，形势异常危急。曹操从徐州赶回，听说吕布屯于濮阳，遂进军围攻濮阳。二军相持百余日，蝗灾大起，双方停战，曹操军还鄄城。此时，曹操失去了兖州，军粮已尽，袁绍派人来劝说想让曹操投靠他，让曹操举家迁到邺县当人质。曹操本打算答应袁绍，多亏程昱劝阻，曹操才打消这个念头。
+　　公元195年（兴平二年），曹操整军再战吕布，三败之，破定陶、庸丘等，平定兖州。吕布逃往徐州投靠刘备。七月，因李傕、郭汜的火拼，汉献帝从长安东归，下诏让各路诸侯勤王。公元196年（建安元年）八月，曹操迎汉献帝。辛亥，汉献帝封曹操为司隶校尉，录尚书事。庚申，迁都许昌。冬十一月丙戌，汉献帝封曹操为司空，行车骑将军事，百官总己以听。公元197年（建安二年）春正月，曹操讨伐张绣，军队驻扎在淯水，张绣举众投降，旋即复叛，长子曹昂、侄子曹安民、猛将典韦战死。此后，曹操又两度攻击张绣，都没有彻底击破。秋九月，曹操东征袁术，袁术弃军而逃至淮河，枭袁术留守四将。
+　　公元198年（建安三年）夏四月，曹操遣谒者裴茂率中郎将段煨讨李傕，夷三族。九月，曹操东征徐州，进攻久与他为敌的吕布。在曹军攻势之下，吕布军上下离心，十二月，吕布部将魏续、宋宪等生擒陈宫归降曹操。吕布见大势已去，下城投降。曹操将吕布、陈宫、高顺等人处死，收降吕布部将张辽以及泰山豪杰臧霸、孙观等人，初步控制了徐州。公元199年（建安四年），曹操派史涣、曹仁击破张杨旧部眭固，取得河内郡，把势力范围扩张到黄河以北。
+　　官渡之战
+　　消灭睦固后，为了应对之后与袁绍的战争，曹操预作布置，命在青州有潜在影响的臧霸等人攻入青州，占领齐（治今山东临淄）、北海（治今山东寿光东南）等地，巩固右翼；又命大将于禁屯军黄河南岸，监视袁军。不久，张绣听从谋士贾诩之计，投降曹操，曹操大喜，拜张绣为扬武将军，解除了后顾之忧。公元199年（建安四年）十二月，曹操自率军屯于官渡（今河南中牟北），准备迎击袁绍。
+　　刘备在陶谦死后，曾一度出任徐州牧，后徐州被吕布攻占，刘备投奔曹操。曹操认为刘备是个英雄，先后表他为豫州牧、左将军。曹操攻占徐州不久，淮南袁术准备逃往青州往依袁绍，曹操派刘备去截击，袁术北上不得，呕血而死。公元200年（建安五年）正月，董承等人谋诛曹操事泄，被曹操杀掉。刘备遂袭杀徐州刺史车胄，占据徐州。
+　　曹操为了免于将来同袁绍作战时前后受敌，决定先消灭在徐州立足未稳的刘备。当时诸将皆怕袁绍乘机来攻许都，曹操对此胸有成竹，说：“刘备，人杰也，今不击，必有后患。袁绍虽有大志，而见事迟，必不动也。”遂进军，以迅雷不及掩耳之势击破刘备，刘备逃奔袁绍。
+　　袁绍是当时北方最强大的一股势力，也是曹操统一北方最强大的敌人。袁氏一门，自袁绍曾祖袁安以下，“四世居三公位”，“门生故吏遍于天下”，势力本就很大，后袁绍取得冀、并、幽、青四州之地，实力大增，有军队数十万人。袁绍以其长子袁谭、次子袁熙、外甥高干分守青、幽、并三州，后方稳固，兵精粮足，根本不把曹操放在眼里。他挑选精兵十万、战马万匹，志在一举消灭曹操。
+　　公元200年（建安五年），袁绍命大将颜良等人进兵白马（今河南安阳滑县），自率大军进屯黎阳（今河南浚县东），向曹操发动进攻。曹操的实力比袁绍弱得多（《三国志》中说不足一万），曹操所占的大河以南地区，地盘既小，又是四战之地，残破不堪，还没有完全恢复，物资比不上袁绍那样丰富。曹操的兵力也远不及袁绍，其总兵力大概不过几万人，投入前线的兵力据《武帝纪》说“兵不满万，伤者十二三”。裴松之认为此数不准确，曹操的兵力不会如此之少，但曹操兵力远逊于袁绍却是毫无疑问的。
+　　袁绍大军来攻，许都震动。曹操安慰众将说：“吾知绍之为人，志大而智小，色厉而胆薄，忌克而少威，兵多而分画不明，将骄而众令不一，土地虽广，粮食虽丰，适足以为我奉也。”二月，袁绍大将颜良等人围攻白马，拉开了大战的序幕。四月，曹操亲自率兵北上解白马之围，他采纳谋士荀攸之计，先进军延津（今河南延津北，白马以西），做出要渡河袭击袁军的态势，吸引袁军分兵西向，然后突然转向迅速赶往白马。曹操军突然杀到，袁军措手不及，颜良被关羽斩首[22] ，袁军大败，白马之围遂解。曹操救出白马军民，沿黄河西撤。袁绍闻知，立即命文丑、刘备渡河追赶曹操。曹操见追兵渐近，命军士解鞍放马，并置辎重于道。袁军追兵大至，争抢辎重，阵形混乱。曹操率领仅有的骑兵突然杀出，大破追兵，阵斩文丑。袁军大震。曹操初战得胜，主动撤军，继续扼守官渡。
+　　八月，袁绍大军连营而进，东西数十里，依沙堆为屯，进逼官渡。曹操分兵坚守营垒，伺机而动。袁军向曹营发动猛攻，先是作高橹、起土山，由上向曹营中射箭，接着又挖地道，欲从地下袭击曹营，皆被曹操以设投石机、挖掘沟壑之法破解。两军一攻一守，相持近二个月。久战之下，曹操处境极为困难。
+　　十月，袁绍从河北运来粮草万</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="vwJ-XZ-YO4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cV7-Rs-SiO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4972" y="871"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CYr-VL-gFY">
+            <objects>
+                <viewController id="FRj-ye-AXP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GPJ-4W-gUy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="合淝x戰神——張遼" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chv-c9-Kw9">
+                                <rect key="frame" x="77" y="77" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="張遼" translatesAutoresizingMaskIntoConstraints="NO" id="E9E-Ry-KWk">
+                                <rect key="frame" x="36" y="152" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0BV-3x-qyX">
+                                <rect key="frame" x="56" y="434" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">張遼（公元169-222年）字文元，三國時魏國雁門馬邑（今朔城區大夫莊）人，著名的軍事將領。
+
+      張遼少年通武，本系漢武帝時朔州人聶壹的後代，因避仇而改姓，幼時為郡吏，并州刺史丁原以他武力過人，召以從事，讓他帶兵至京都，又從何進。何進派他到河北招募軍隊，何進敗，張遼以兵隨董卓。董卓被呂布殺死後，張遼又投呂布帳下為將，呂布佔領徐州，很倚重張遼。後呂佈在下邳被曹消滅後，張遼隨歸曹操。由於戰功卓著，被任命為中郎將，賜爵關內候。
+
+　　張遼一生幾乎全部是在戰爭中度過的。他先後跟隨曹操戰山東、討袁譚、滅袁尚、平遼東，在極端混亂的三國時代，結束“豪傑並起”、軍閥混戰的局面，使北方漸趨統一，這在歷史上起了進步作用的。
+
+　　張遼不僅勇猛過人，有膽有識，而且精於用兵，善於謀略，建安20年（公元前215年），張遼駐守合肥，孫權乘曹操進兵漢中之機率領十萬大軍來取安徽，雙方在合肥展開了激烈的戰鬥。張遼率手下強兵將士800人衝鋒陷陣，連殺敵兵無數，直衝到孫權帥旗之下。孫權大驚失色，部將聞風喪膽，不戰而逃。後來發現張遼部下僅幾百人，才又返回，把張遼包圍起來，面對重兵圍困，張遼毫無懼色，左沖右突，如入無人之境，殺進殺出包圍圈數次，竟無人能夠阻擋。孫權圍城十幾天未果，只好撤軍，張遼又乘勝追擊，連打勝仗。這一次激戰，張遼打出了魏軍的軍威，也顯示了自己傑出的軍事才能。曹操聞訊，非常讚賞張遼的膽略和才識，遂拜他為征東將軍。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bIi-1Z-SxK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tsH-0T-0Lz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5654" y="870"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0ur-g6-U5o">
+            <objects>
+                <viewController id="t5C-BI-TXr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bDm-5D-3L5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="被抓到x就投降——于禁" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XhH-c6-VsV">
+                                <rect key="frame" x="77" y="76" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="于禁" translatesAutoresizingMaskIntoConstraints="NO" id="dvG-ve-2S8">
+                                <rect key="frame" x="36" y="159" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AGq-aO-MfW">
+                                <rect key="frame" x="56" y="430" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">于禁（？－221年），字文則，泰山鉅平（今山東泰安南）人。三國時期魏國武將。本為鮑信部將，後屬曹操，曾於張繡造反時討伐不守軍紀的青州兵，同時為迎擊敵軍而固守營壘，因此曹操稱讚他可與古代名將相比。然而在建安二十四年（219年）的襄樊之戰中，于禁在敗給關羽後投降，致使晚節不保。關羽敗亡後，于禁從荊州獲釋到了吳國。黃初二年（公元221年），孫權遣還于禁回魏，同年去世，諡曰厲侯，有一子於圭。
+
+
+ 
+
+人物生平
+
+轉戰沙場
+
+公元184年（中平四年），于禁由鮑信招募討伐黃巾軍。公元192年（初平三年），鮑信迎曹操領兗州牧，于禁與其黨俱封為都伯，屬將軍王朗。王朗異之，向曹操推薦于禁之才可任大將。曹操召見於禁，拜軍司馬。
+
+公元193年（初平四年），曹操命于禁攻打徐州期間攻陷廣戚，拔之，拜陷陳都尉。公元194年（興平元年），跟從曹操討呂布於濮陽，領兵攻破呂布二營於城南，又在須昌擊敗高雅。公元195年（興平二年），跟從曹操攻壽張、定陶、離狐，圍張超於雍丘，皆破之。公元196年（建安元年），跟從曹操征黃巾劉辟、黃邵等，屯版梁。黃邵等夜襲曹操營，于禁率麾下擊破之，斬劉辟黃邵等，盡降其眾。遷平虜校尉。同年，從圍袁術部將橋蕤、張勳等於若縣，斬其四將。
+
+
+ 
+
+久經善戰
+
+公元197年（建安二年），于禁隨曹操至宛，張繡投降。旋即張繡復叛，曹操的陣營被張繡軍隊忽然襲擊，應付來不及，便各自退兵，非常混亂。唯獨于禁約束部下，且戰且退。一些戰友雖然戰死了，于禁也不允許散亂。還沒有退回曹軍大本營，于禁路上發現十多個衣衫不整的傷兵，一問之下，原來是原本的青州兵在打家劫舍。青州兵原是黃巾賊，後來投降了曹操，仍稱青州兵，曹操對他們很寬容，因此經常放肆，乘機搶劫。于禁一聽，便追討這些也是自己人的青州兵。有些青州兵不敵，逃回曹營打小報告，誣告于禁也造反。有人勸于禁首先向曹操處報備，但于禁說：「現在敵人在後面追來，我首先抗敵，至於曹公，他是明智的人，正是謠言止於智者，怕什麼？」於是，于禁先築好了濠溝以防敵人進攻，然後才令人通知曹操及向他解釋。曹操聽了，認為于禁的做法很對，當眾說：「當時敵人來攻，相當混亂，于禁能在混亂中整頓軍隊，追討搶掠的惡行，安營築寨地堅守，真是好將領的榜樣。」於是錄于禁前後功，封為益壽亭侯。
+
+
+ 
+公元198年（建安三年），復從曹操破張繡於穰，擒呂布於下邳。199年（建安四年），與史渙、曹仁、樂進攻破眭固於射犬，破斬之。
+
+官渡鏖戰
+
+公元200年（建安五年），劉備在徐州叛變，曹操東征之。袁紹攻于禁，于禁堅守，袁紹不能攻下，隨後主動出擊，攻打袁軍的側翼營寨，從延津向西南沿黃河攻取汲縣, 並與樂進等率步騎五千渡河攻取獲嘉縣，總共焚燒保聚三十餘屯，斬首獲生各數千，招降袁紹將何茂、王摩等二十餘人。隨後曹操又使于禁單獨領兵進駐原武，攻擊袁紹在杜氏津的營寨，破之。遷裨將軍，後從還官渡。曹操與袁紹連營，起土山相對。袁紹命令士兵向曹操的營中射箭，曹操的士卒多死傷，士兵懼怕。于禁督守土山，力戰激勵士氣。擊敗袁紹後遷偏將軍。
+
+不念舊情
+
+公元206年（建安十一年），昌豨投降曹操後再次反叛，曹操派遣于禁征討。于禁急攻昌豨，昌豨與于禁是舊交，便向于禁投降。諸將皆以為昌豨已降，當讓曹操處置，于禁曰：「你們難道不知道曹公的命令嗎！在大軍包圍後才投降的人，不能赦免他的罪。遵行和執行法令，是事奉君上的氣節。昌豨雖然是我的舊朋友，但我豈可以因此而失節！」自臨與昌豨決別，隕涕而斬之。當時曹操軍在淳于，聞而嘆曰：「昌豨不向我投降，而投奔于禁，是命運啊！」更加器重於禁，東海平定以後，曹操上表漢帝表功于禁，樂進，與張遼三人，于禁因此拜為虎威將軍。
+
+
+ 
+
+咸有效勞
+
+公元208年（建安十三年），隨夏侯惇進攻博望坡，中劉備的伏兵之計，幸得李典相救，率軍而回。公元209年（建安十四年）與臧霸等攻梅成，張遼、張郃等討陳蘭。于禁到，梅成舉眾三千餘人偽降。旋即復叛，其眾奔蘭。張遼等與蘭相持，軍食少，于禁運糧前後相屬，張遼遂斬蘭、成。增邑二百戶，並前千二百戶。這時，于禁與張遼、樂進、張郃、徐晃俱為名將，曹操每次征伐，不是用為行軍前鋒，就是用為後拒；而于禁持軍嚴整，得賊財物，無所私入，由是賞賜特重。曹操曾經惱恨朱靈，欲奪其兵權。曹操因為于禁有威重，遣于禁引數十騎，齎令書，往朱靈營奪其軍，朱靈及其部眾無人敢動。曹操讓朱靈為于禁部下，眾皆震服，其見憚如此。
+
+
+ 
+公元216年（建安二十一年），于禁遷為左將軍，假節鉞，分邑五百戶，封一子列侯。
+
+晚節不保
+
+水淹七軍
+
+
+公元219年（建安二十四年），關羽攻樊城，于禁與龐德一起救援曹仁，此時大雨連綿，漢水暴漲，七軍都被大水淹沒。于禁和眾將登高坡望水，沒有可以迴避的地方，關羽乘船攻打于禁等人，于禁隨即投降，被關押在荊州江陵。龐德大罵關羽而寧死不降，龐德向關羽說：「豎子，何謂降也！曹操帶甲百萬，威振天下。汝劉備庸才耳，豈能敵邪！我寧為國家鬼，不為賊將也！」逐為關羽處斬。曹操得知後，哀嘆良久，說：「于禁跟從我三十年，怎麼面臨險境，反不如龐德！」
+
+羞愧離世
+
+江陵後，于禁從荊州獲釋而到了東吳，有次和孫權同騎馬出行。虞翻見二人並排十分不滿，大罵于禁只是俘虜，沒有資格與孫權並排；更手持馬鞭要鞭撻于禁，孫權立刻喝止。隨後孫權在樓船與群臣宴飲，于禁聽到演樂曲時傷心流淚，虞翻又指于禁是裝可憐。于禁雖為他所惡，但猶讚嘆其忠義。
+
+
+ 
+曹丕即位，孫權稱臣。公元221年（黃初二年），孫權遣于禁回魏國。于禁回魏後，卻遭受其他人的嘲笑。當時于禁的鬍鬚和頭髮都雪白了，臉又消瘦。曹丕表面上對於禁表示安慰，任命他為安遠將軍。于禁拜謁曹操的陵墓時，曹丕卻命人畫關羽戰克、龐德憤怒、于禁降服之狀，于禁見到後，便因為覺得丟臉而羞愧得病死去，兒子於圭嗣封益壽亭侯的爵位，諡號是厲侯。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="iKV-Mp-pmg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mGP-97-rrP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6308" y="869"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RHg-If-iNx">
+            <objects>
+                <viewController id="Ph3-oV-nKD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aoW-g8-717">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大斧x良將——徐晃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlA-0d-pJ7">
+                                <rect key="frame" x="77" y="74" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="徐晃" translatesAutoresizingMaskIntoConstraints="NO" id="rkZ-sr-0UO">
+                                <rect key="frame" x="36" y="146" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Efb-YJ-Wnd">
+                                <rect key="frame" x="56" y="435" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">早年經歷
+       徐晃年輕時曾做河東郡小吏，因隨車騎將軍楊奉討伐賊寇有功，被提拔為騎都尉。
+ 
+       初平三年（192年），王允和呂布誅殺董卓。董卓部將李傕、郭汜等攻破長安城，殺王允等人，後又自相火併，在長安大肆屠殺。徐晃說服楊奉護送漢獻帝東入洛陽。漢獻帝渡河至安邑時（今山西夏縣北），封賞保駕有功人員，徐晃封為都亭侯。
+隨曹征戰
+       建安元年（196年），漢獻帝在河內太守張楊、興義將軍楊奉等殘餘朝官的保護之下，回到了洛陽。楊奉被拜為車騎將軍，駐兵大樑。徐晃見大將軍兼司隸校尉韓暹和衛將軍董承之間爭鬥日益加劇，就勸楊奉歸附曹操，楊奉決定聽從徐晃的建議。
+ 
+       建安二年（197年），曹操保護著漢獻帝要遷都許昌的時候，楊奉在韓暹的挑撥下又改變了歸附曹操的主意，而是跟韓暹一起出兵去劫駕。楊奉在梁（今開封）被曹軍殺得大敗。徐晃則趁機投奔了曹操。從此，他便成為曹操的一名忠實戰將，跟隨曹操轉戰南北，為曹魏的創建屢立功勳。曹操分兵給徐晃，派其攻打卷、原武兩地，破之，被拜為裨將軍。又隨曹操攻呂布，降呂布將領趙庶、李鄒等。後與史渙在河內斬殺眭固。
+官渡顯威
+       建安五年（200年），在官渡之戰中，徐晃隨曹操擊敗了投靠袁紹的劉備，  徐晃像 徐晃像 又隨曹操擊敗顏良，攻克白馬（今河南滑縣東北），進至延津（今河南延津北），在此擊敗文丑，被拜為偏將軍。後與曹洪擊（氵隱）人祝臂，破之。九月，曹操出兵與袁紹作戰，不勝而還，堅壁自守。時袁紹數千車糧草至官渡。謀士荀攸對曹操說：“袁紹的運糧車旦夕間就到了，其押運糧草的將領韓勇猛但輕敵，出擊可以將他打敗”。曹操問：“誰可以擔當這個重任？”荀攸說：“徐晃可以。”於是曹操派徐晃和史渙帶著幾千騎兵共同攻打韓猛，在故市（今鄭州西北）截燒其輜重。此戰，徐晃功勞最大，被封為都亭侯。
+深長見解
+       建安九年（204年）二月，曹操利用袁紹死後袁譚和袁尚爭立後嗣的矛盾，發兵北上攻打冀州。
+ 
+       曹操包圍了鄴城，攻破了邯鄲，易陽令韓範詐降而自守，曹操派徐晃前去攻打，徐晃兵臨城下，給韓範寫了封信，用箭射入城中，陳明利害，勸韓範投降。韓範被說服後改變主張，決定以全城投降。
+ 
+       徐晃勸告曹操說：“如今袁譚、袁尚還沒有被擊敗，沒有攻下的城池都等待消息，如果今日滅了易陽，明日那些城池都會死命防守，河北就沒有平定的那一天了。請求您招降易陽來給各城看，那樣他們都會望風歸順。”曹操採納他的意見，封韓範為關內侯。接著，又收降了涉縣（今河北涉縣西北）長梁岐，同樣賜爵關內侯。曹操能夠很快翦除鄴城羽翼，攻克鄴城，奪得翼州，和他聽取了徐晃的這一建議是分不開的。
+
+徐晃 徐晃
+       旋即徐晃又攻毛城（今河北涉縣東南），設伏兵大敗袁軍，破三屯。之後，隨曹操在南皮（今河北南皮）大破袁譚，袁譚被曹軍所殺。徐晃又平定平原叛賊。建安十二年（207年），徐晃隨曹操北征烏桓，在白狼山之戰中，大敗敵軍，蹋頓及名王以下10餘人被殺，曹操最終討平烏桓，徹底剷除袁氏殘餘。徐晃被為拜橫野將軍。
+ 
+       建安十三年（208年）七月，曹操在基本統一北方後，親統大軍十餘萬南征荊州，欲吞併江南、統一天下。徐晃隨曹操出征，攻中廬、臨沮、宜城地，又與滿寵在漢津征討關羽。後曹操在赤壁之戰中為孫劉聯軍所敗，曹操留徐晃與征南將軍曹仁共守江陵，折衝將軍樂進守襄陽，引軍北還。同年，徐晃還與曹仁在江陵共同抗擊吳將周瑜的進攻。
+東征西討
+       建安十五年（210年），徐晃隨夏侯淵去太原平叛，攻克大陵，斬其首領商曜。
+
+三國志12徐晃 三國志12徐晃
+       建安十六年（211年），以馬超、韓遂為首的十部聯軍，聚集十餘萬人馬，據守潼關抗曹。曹操發兵進取關中，徐晃奉命屯守汾陰，以鎮撫河東。曹操至潼關後，遇到關中馬超阻擊，不得前進。曹操問計於徐晃，徐晃說：“您已帶大兵到此，而敵人不再分兵守衛蒲阪，可知他們缺乏謀略。請給我一支精兵，渡過蒲坂津，作為大軍的先導，截斷敵人的後路，就可擒住他們了。”曹操至同意此舉，並派徐晃、朱靈率四千精兵從蒲坂津（今山西永濟、陝西大荔朝邑之間黃河渡口）乘虛渡過黃河。陣地尚未建成，賊人梁興夜間率步騎五千餘人攻徐晃，徐晃將其擊走，隨即建立了橋頭陣地。閏八月，曹軍從此渡河。九月，曹操又採納謀士賈詡的計謀，離間馬超和韓遂，最終大破關中軍，斬成宜、李堪等。馬超、韓遂逃往涼州（今甘肅及寧夏回族自治區等地）。
+ 
+       建安十七年（212年），曹操派徐晃與夏侯淵平定隃麋、汧諸氐，在安定會師。曹操還鄴後，又派徐晃與夏侯淵平鄜（今陝西省延安地區）、夏陽餘賊，斬殺梁興，降三千餘戶。
+ 
+       建安二十年（215年）七月，徐晃隨曹操征討張魯，徐晃因功升為平寇將軍。不久，解將軍張順之圍，擊陳福等三十餘屯，皆破之。同月，曹操回鄴，任夏侯淵為都護將軍，率徐晃與張郃駐守陽平關（今陝西勉縣西），以拒劉備，自己返回鄴城。
+ 
+       建安二十三年（218年），劉備進攻漢中（治南鄭，今陝西漢中）。四月， 蜀軍進至陽平關。夏侯淵、張郃、徐晃等率軍阻擊。劉備派部將陳式等十餘營襲擊馬鳴閣（今四川廣元北），企圖切斷曹軍後方通道，被徐晃擊敗，蜀軍自投山谷， 死者甚多。曹操聽說後，非常高興，給了徐晃指揮軍隊的符節，並下令說：“這一條閣道是漢中的咽喉險要之地，劉備想斷絕內外聯繫，奪取漢中。將軍這一舉粉碎了劉備的計劃，真是妙計中的妙計啊！”後來，夏侯淵陣亡，曹操親到漢中，撤出了剩餘的部隊。
+ 
+       建安二十四年（219年）六月，劉備繼取漢中後，派孟達、劉封攻占漢中郡東部的房陵、上庸等地，勢力有所擴展。七月，孫權欲攻合肥，魏軍大部調動淮南防備吳軍。鎮守荊州的蜀前將軍關羽，抓住戰機，留南郡（治江陵，今湖北江陵）太守糜芳守江陵，將軍傅士仁守公安（今湖北公安西北），自率主力北攻荊襄（魏荊州治新野，今河南新野；襄陽郡治襄陽，今湖北襄樊）。
+解圍樊城
+       當時征南將軍曹仁駐紮在樊城（今湖北襄樊），將軍呂常駐紮襄陽，左將軍於禁及立義將軍龐德駐紮在樊城北。徐晃（時為平寇將軍）駐紮宛（今河南南陽市），協助曹仁征討關羽。 新三國的徐晃 新三國的徐晃 八月，大雨，漢水暴漲，於禁七軍均被水淹，在關羽水軍猛攻下，於禁被迫投降，龐德力戰被俘殺。關羽乘勝圍攻樊城，並以一部兵力包圍襄陽。此際，魏荊州刺史胡修、南鄉（治南鄉，今河南淅川東南）太守傅方，均降於關羽，陸渾（今河南嵩縣東北）人孫狼等，亦殺官起兵，響應關羽，關羽聲勢一時“威震華夏”。
+
+       曹操認為漢獻帝在許都，與賊臨近，一度準備遷都，因丞相司馬司馬懿及曹椽蔣濟勸諫而停止。曹操採納了司馬懿利用矛盾破壞孫、劉聯盟，以坐收漁翁之利的策略，派使者去見孫權。同時指令徐晃率軍援救曹仁。徐晃所部多為新兵，難以與關羽爭鋒，於是進至陽陵坡駐紮（樊城北），曹操派將軍徐商、呂建傳令：“要等到兵馬集結後，一起出擊。”當時關羽前部屯偃城，徐晃佯築長塹，示以將切斷蜀軍後路。蜀軍懼被圍，燒營撤走，徐晃軍進據偃城，兩面連營，漸向圍城蜀軍逼近，徐晃軍營距關羽所圍僅三丈。
+ 
+       曹操使者返回洛陽，帶來孫權密信，說即派兵西上襲擊關羽，但請保密，以防關羽得知有備。曹操採納董昭意見，故意洩漏信中內容。曹操令徐晃用箭將孫權密信內容，分別射入樊城及關羽營中。被圍魏軍得信後，士氣倍增，防守更堅；關羽得信後，則進退兩難。
+此時，曹操為了解救樊城、襄陽，已率主力由洛陽進抵摩陂（今河南郟縣東南），並已先後派殷署、朱蓋等十二營兵進至偃城，悉歸徐晃指揮。
+
+作戰示意圖 作戰示意圖
+       關羽軍主力屯圍頭，一部屯四塚。徐晃以聲東擊西戰術，揚言欲攻圍頭，卻出其不意突襲四塚。關羽恐四塚有失，自率步騎五千出戰，戰前，由於關羽和徐晃是同鄉而且關係很好，兩人隔著遙遠對話，但說平生，不及軍事，不久徐晃下馬宣軍令：“得關雲長首級的人，賞金千斤。”關羽驚怖，說：“大哥，你說的這是什麼話？”徐晃回答：“這是國家之事。”隨後兩軍混戰，關羽被徐晃擊敗，當其退走營寨時，徐晃率軍窮追不捨，緊隨其後衝入營內。當時關羽營寨，外圍深壕及鹿角十重，障礙設施極為嚴密，若從營外強攻極為困難。現乘其軍陷於混亂之機，由內突襲，一舉大破之，殺降蜀之胡修、傅方。關羽遂撤圍退走，樊城圍解。不久，東吳大都督呂蒙偷襲江陵，關羽被俘殺。此戰，對於鞏固曹操的南部疆土，穩定後方都起了重大作用，不僅挫敗關羽的強大攻勢，更重要的是破壞孫、劉聯盟，改變了當時的戰略格局，使曹操掌握了戰略主動權。樊城、襄陽城危之時，曹操將名將張遼和諸將皆調回，以援曹仁，然張遼等未至，徐晃已解二城之圍，其功可比張遼的合肥之役。
+ 
+       曹操在一篇令中說：“敵人圍塹鹿角十重，將軍致戰全勝，遂陷賊圍，多斬首虜。我用兵三十餘年，以及所聽說過的古代善於用兵的人，沒有能夠這樣長驅直入敵圍的。況且樊、襄陽之圍，勝過以前的莒、即墨之圍，所以將軍之功，勝過孫武、穰苴。”（注：成語“長驅直入”即由此而來。）
+ 
+       徐晃凱旋摩陂之時，曹操親自出營七里迎接徐晃，並設宴慶賀，慰勞徐晃。曹操舉卮（古代一種盛酒器。圓形。容量四升）對徐晃說：“襄陽、樊城得以保全，是將軍你的功勞啊！”
+ 
+       徐晃治軍嚴謹，令行禁止，當時諸軍雲集於摩陂，曹操案行諸營，不少士兵出陣圍觀，唯有徐晃部下軍營整齊，將士駐陣不動。曹操嘆到：“徐將軍可謂有周亞夫之風啊！”
+功成名就
+       建安二十五年（220年），曹操去世，曹丕即魏王位，封徐晃為右將軍，進封逯鄉侯。十月曹丕稱帝，史稱魏文帝，又進封徐晃為楊侯，與征南將軍夏侯尚在上庸（湖北竹山西南）攻打蜀將劉封，破其軍，劉封逃回成都後，被劉備賜死。因徐晃鎮守陽平，遷封為陽平侯。后孫權派部將陳邵守襄陽，徐晃與曹仁共擊陳邵，攻克了襄陽。
+ 
+       黃初三年（222年）九月，魏文帝曹丕率軍首征東吳。魏文帝命征東大將軍曹休、前將軍張遼、鎮東將軍臧霸出洞口，大將軍曹仁出濡須，上軍大將軍曹真、征南大將軍夏侯尚、左將軍張郃、右將軍徐晃圍南郡。吳建威將軍呂範督五軍，以舟軍拒曹休等，左將軍諸葛瑾、平北將軍潘璋、將軍楊粲救南郡，裨將軍朱桓以濡須督拒曹仁。但由於時機尚未成熟，準備倉促，曹丕首次徵吳未能達到預期的目標。
+ 
+       黃初七年（226年）五月，魏文帝去世，吳國乘機派左將軍諸葛瑾等攻襄陽，徐晃與司馬懿擊敗諸葛瑾。徐晃因功增食邑二百，前後共計三千一百戶。
+ 
+       太和元年（227年），徐晃去世，諡曰壯侯，子徐蓋繼嗣。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="9of-Xs-IxC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iVO-nr-tyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7006" y="870"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4nj-k9-szJ">
+            <objects>
+                <viewController id="8pJ-a5-Rwj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kQv-6o-fVb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="到底念樂x還是念樂——樂進" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egF-uF-KhC">
+                                <rect key="frame" x="56" y="78" width="259" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="seZ-m7-kpJ">
+                                <rect key="frame" x="56" y="439" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">樂進（？－公元218年），字文謙，與張遼、張郃、於禁、徐晃並稱為曹魏“五子良將”。樂進官至右將軍、假節，樂進容貌短小，隨曹操征戰，每戰先登，於官渡之戰中斬淳于瓊；擊袁譚、袁尚於黎陽，斬其大將嚴敬。不久樂進別擊黃巾，破其眾，平撫樂安郡。公元218年（建安二十三年），樂進逝世，諡曰威侯。
+
+人物生平
+　　每戰先登
+　　樂進容貌短小，有膽烈而跟隨曹操，為帳下吏。被遣回所屬郡募兵，募得千多人，歸還後升軍假司馬、陷陳都尉。
+　　公元194年（興平元年），樂進從擊呂佈於濮陽，張超於雍丘，橋蕤於苦縣，都是先登陷陣而有功，封廣昌亭侯。
+　　公元198年（建安三年），樂進從征張繡於安眾，圍呂佈於下邳，破其別遣軍將。
+　　公元199年（建安四年），又擊眭固於射犬，攻劉備於小沛，皆破敵軍，拜為討寇校尉。
+　　驍果顯名
+　　公元200年（建安五年），樂進與於禁渡河攻獲嘉，歸還後，從擊袁紹於官渡，奮勇力戰，斬袁紹部將淳于瓊。
+　　公元204年（建安九年），從擊袁紹子譚、尚於黎陽，斬其大將嚴敬，拜游擊將軍。不久樂進別擊黃巾，破其眾，平撫樂安郡。從圍鄴城，平定後追擊袁譚於南皮，再次先登，闖入袁譚城東門。袁譚敗後，樂進別攻雍奴，再破其軍。
+　　咸有效勞
+　　公元206年（建安十一年），曹操上表漢獻帝，稱讚樂進及於禁、張遼說：“武力強大，計謀周全，品性忠正，操守高潔，每次征戰，身先士卒，勇猛頑強，無堅不摧；親自擂動戰鼓，忘了疲倦。他們單獨領兵征討，統率全軍，撫慰將士，紀律嚴明，秋毫無犯；臨敵決策，沒有失誤。論功記職，應該給予顯要榮寵。”於是以樂進為折衝蕩寇將軍。樂進奉命別徵高幹，從北道入上黨，回出其後。高乾等人還守壺關，連戰斬首。高幹堅守未下，直至曹操親自來徵，壺關方拔。秋八月曹操徵管承時，進軍淳于，遣樂進與李典往擊。結果管承破走，逃入海島，海濱盡平，惟荊州未服，被遣屯軍於陽翟。
+　　公元208年（建安十三年），樂進從平荊州，留屯襄陽。
+　　公元209年（建安十四年），進擊關羽、蘇非等人，皆擊退其眾，南郡諸郡的山谷蠻夷都前往樂進處投降。
+　　後樂進又從討劉備手下臨沮長杜普、旌陽長梁大，皆大破之。
+　　當敵制決
+　　公元213年（建安十八年），從征孫權，假進節。曹操回師後，留樂進與張遼、李典屯於合肥。
+　　公元214—215年（建安十九年—二十年）增邑五百，並前凡千二百戶。以樂進數有軍功，分五百戶，封一子列侯；不久，樂進遷右將軍。
+　　公元215 年（建安二十年），孫權趁曹操用兵漢中之際，親率十萬兵馬攻向合肥。曹操在出征張魯前，派護軍薛悌送函到合肥，寫到“賊至乃發（賊軍到時就打開）”，在大軍壓境之際，張遼等便打開曹操之函，寫到：“若孫權軍來到，張、李兩位將軍出城迎戰，樂將軍守城；護軍薛悌不要出戰。”因雙方兵力懸殊，諸將都對此指示感到疑惑。本來張遼、李典二人不睦，曹操為了防止戰中二人間隙至於不利之境，於是命令樂進守城接應。三人在逍遙津之戰緊密配合，大破吳軍，幾獲孫權。戰後，張遼問投降的東吳士兵，剛有個紫色鬍鬚、上身長腿短、善於騎射的人是誰，東吳降卒說那就是孫權。張遼與樂進在戰場上遇到，談到這事，說早知道就急追他，搞不好就抓到，曹軍聽了皆大為嘆恨。
+　　公元218年（建安二十三年），樂進逝世，諡曰威侯。其子樂綝嗣任。樂綝性格果毅，有乃父之風，官至揚州刺史。後諸葛誕造反，掩襲殺樂綝，朝廷下詔悼惜，追贈衛尉，諡曰愍侯。其子樂肇嗣任。
+　　公元243年（正始四年），樂進從祀於曹操廟庭。
+ 
+歷史評價
+　　樂進容貌短小，作戰勇猛，因膽烈跟隨曹操，多次有先登之功。
+　　陳壽：太祖建茲武功，而時之良將，五子為先。於禁最號毅重，然弗克其終。張郃以巧變為稱，樂進以驍果顯名，而鑑其行事，未副所聞。或註記有遺漏，未如張遼、徐晃之備詳也。
+　　曹操：“武力既弘，計略周備，質忠性一，守執節義，每臨戰攻，常為督率，奮強突固，無堅不陷，自援枹鼓，手不知倦。又遣別徵，統御師旅，撫眾則和，奉令無犯，當敵制決，靡有遺失。論功紀用，宜各顯寵。”
+　　劉備：“又樂進在青泥與關羽相拒，今不往救羽，進必大克，轉侵州界，其憂有甚於魯。”
+　　王歆：“樂進魏之名將，志列於張遼後，其勇悍猛迅，當亦其儕也。惜史書不詳，便松之不得益一字。遍觀其傳，如日記行述，不過某某日於某某處破某某敵而已。所得者，唯別傳不見之名有數，如管承、劉備臨沮長杜普、旌陽長梁大等。”</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="樂進" translatesAutoresizingMaskIntoConstraints="NO" id="KvI-A3-Tw3">
+                                <rect key="frame" x="75" y="149" width="224" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Xpu-og-zEG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XWr-ek-FP8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7684" y="869.41529235382313"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wxC-YT-67P">
+            <objects>
+                <viewController id="FgY-9S-W7F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qCq-bi-BJv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="越老x越強——張郃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LD1-jD-uRr">
+                                <rect key="frame" x="77" y="79" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="D3B-A8-qNH">
+                                <rect key="frame" x="56" y="435" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">張郃（？－公元231年），字儁乂，三國時期曹魏五子良將之一，任征西車騎將軍，封爵鄚侯。張郃在官渡之戰中投降曹操，後攻烏桓、破馬超、降張魯；江陵破吳，街亭敗蜀，屢建戰功。公元231年，諸葛亮第四次北伐，箭矢射中了張郃右膝，張郃陣亡；他戎馬一生以利用地形著稱。
+
+人物生平
+　　官渡投曹
+　　張郃（zhāng hé）於黃巾之亂的時候，應徵入伍，以韓馥的軍司馬身份參與鎮壓叛亂。
+　　韓馥死後，效力於袁紹。在攻打公孫瓚時立下不少戰功，升為寧國中郎將。在官渡之戰中，曹操襲擊烏巢，張郃說：“曹公的士兵英勇善戰，他們一定會擊潰淳於瓊等人。淳於瓊一旦失敗，那麼將軍的大業就完了，您應該盡快帶兵援救。 ”但謀士郭圖卻說：“張郃說的不是好主意，我軍不如進攻曹操的大營，曹操勢必回救，這樣淳於瓊的危難不救自解。”張郃反駁：“曹公的營盤牢固，倉促間肯定攻不下來。如果淳於瓊等人被俘，我們也就要當俘虜了。”結果袁紹聽信郭圖，不聽張郃的勸阻，派他攻打曹操軍營，結果不但沒攻下，缺乏救援的烏巢也被劫了。郭圖將計謀失敗後，誣陷張郃失敗後出言不遜，張郃等將領懼怕被追究，於是投降了曹操。曹操對張郃的投降感到高興，親自迎接並稱“如微子去殷，韓信歸漢也”，此後擔任著偏將軍、封都亭侯。
+　　從征四方
+　　後來張郃頗受曹操重用，交給其部隊，讓他跟隨自己攻打鄴城，佔領了鄴城。張郃又跟隨曹操到渤海攻打袁譚，他單獨率軍保衛了雍奴，擊潰了敵人。隨同曹操征討柳城的時候，張郃和張遼擔任先鋒，張郃因為屢立戰功升任平狄將軍。張郃還領兵征討東萊郡，討伐管承，還和張遼等人一起討伐陳蘭、梅成等人，大獲全勝。張郃跟隨太祖到渭南，擊潰了馬超、韓遂，保衛了安定城，馬超的部將楊秋投降。張郃、夏侯淵一起征討盤踞在鄜城的賊寇梁興和武都一代的氐族叛軍，再次擊敗了馬超的部隊，平定了宋建統治的地區。
+　　漢中之戰
+　　公元215年（建安二十年），曹操討伐張魯，派張郃統帥大軍討伐梁興和氐族首領竇茂所部。不久從散關入漢中，派張郃率五千步兵在前開道，一直到陽平。張魯投降，曹操回軍，留張郃與夏侯淵、徐晃等守漢中，以拒劉備。同年，張郃別督諸軍南下進攻巴東、巴西二郡，將當地百姓遷徙到漢中。劉備派徵虜將軍張飛為巴西郡太守，抗擊張郃。張郃率軍進至宕渠，與張飛相拒五十餘日，張飛率精兵萬餘人從小道進攻張郃，由於山道狹窄，首尾不能相救，張郃大敗，僅帶十餘人棄馬爬山逃跑，之後收攏敗兵，撤回南鄭。升遷蕩寇將軍。
+　　公元218年（建安二十三年），劉備進攻漢中，屯於陽平，夏侯淵、張郃、徐晃等率軍迎擊，張郃負責防守廣石。
+　　公元219年（建安二十四年），劉備親自率精兵萬餘人，分為十部，夜間猛攻張郃。張郃率親兵與蜀軍進行對抗，劉備不能攻克張郃，寫信要求益州撥發援兵。諸葛亮一時遲疑不缺，從事楊洪勸道：“漢中是益州門戶，沒有漢中就沒有益州，還遲疑什麼？”諸葛亮恍然大悟，立刻發兵增援。其後，劉備退走馬谷，放火燒營，夏侯淵知張郃兵少，調部分兵力來增援，並救火，途中遇上劉備軍，被蜀軍所殺。曹軍大敗，張郃同敗軍一起退守陽平關東。而當劉備聽聞夏侯淵被斬殺，只說：“要殺就殺張郃，殺夏侯淵有什麼用！”
+　　司馬郭淮和督軍杜襲收斂散卒，郭淮見狀，便說：“張將軍是國家的名將，劉備也忌憚他。現在形勢緊迫，只有張將軍才能安定軍心。”於是眾人推舉張郃出任主帥，指揮士兵，佈置營寨，軍心安定。不久，曹操遣使令張郃假節。劉備欲渡漢水來攻，見魏軍在漢水以北列陣相迎，劉備於是放棄渡河，隔水相持。曹操親自進攻漢中，不能取勝，於是撤出漢中的部隊，令張郃屯兵於陳倉。
+　　江陵破吳
+　　公元220年（延康元年），曹丕即魏王位後，任命張郃為左將軍，進封都鄉侯爵位。等到曹丕登基之後，又進封他為鄚侯，命令張郃與曹真率領兵馬征伐盤踞在安定一代的盧水胡人和東部羌人。戰鬥結束後，曹丕又在許昌宮召見了張郃、曹真，派張郃南下與夏侯尚一起進攻東吳政權的江夏郡。張郃獨自率領幾路大軍渡過長江，奪取了百里洲上的吳軍堡壘。
+　　曹叡即位後，派張郃來到南方，駐紮荊州，和司馬懿一起進攻孫權的部將劉阿等人，大軍來到祁口，與吳軍激戰，打敗了劉阿所部。
+　　街亭大捷
+　　公元228年（太和二年），蜀漢丞相諸葛亮大舉北犯，天水、南安、安定三郡吏民叛應諸葛亮。當時朝臣未知計所出，曹叡自信地說：“諸葛亮恃險固守，不易進攻。
+　　現在他自動來了，正符合引出敵人的戰術。打敗諸葛亮是一定的了。”於是曹叡給張郃加官特進，讓他總督各路軍馬，在街亭阻擋諸葛亮的部將馬謖。馬謖依傍險要的南山扎寨，沒有下山佔據城池。張郃斷絕了他取水的道路，然後發起進攻，大敗馬謖。南安、天水、安定各郡反叛魏國響應諸葛亮，張郃領兵平定了這幾處地方。曹叡下詔說：“賊寇諸葛亮率領巴、蜀的烏合之眾，遇上了猛虎一樣的我軍將士。將軍您披肩甲、執利器，攻無不克，朕要嘉獎你的大功，增加你的食邑一千戶，連同一千的賞賜共計四千三百戶。”
+　　料敵先機
+　　當時司馬懿在荊州治理水軍，打算沿著沔水進入長江討伐東吳，曹叡下詔命令張郃統帥關中的部隊接受司馬懿的指揮。張郃到達荊州時，正趕上冬季水淺，大船不能行進，於是回師方城駐紮。公元229年（太和三年），諸葛亮再次出祁山，對陳倉發動猛烈進攻。曹叡派驛馬召張郃到京師，還親自到河南縣城，設置酒宴為張郃送行。曹叡派遣三萬士兵以及武衛、虎賁兩營的勇士護衛張郃，還問張郃：“等將軍到了前線，諸葛亮會不會已經佔領了陳倉？”張郃知道諸葛亮孤軍深入，不會攜帶太多的糧草，不能久攻，就回答說：“估計臣還沒到前線諸葛亮就已經撤走了。臣屈指計算，諸葛亮的糧草支撐不了十天。”張郃晝夜行軍到達南鄭，諸葛亮果然撤退了。曹叡詔令張郃回師京城，任命他為征西車騎將軍。
+　　好儒風雅
+　　張郃用兵機變無雙，懂得戰術變化，擅於安營布陣，根據地形佈置戰略戰術，沒有他預料不到的情況，從諸葛亮起的蜀國大將都非常忌憚他。張郃雖然是武將，卻喜歡同儒士交往，曾經推薦同鄉卑湛，說他通曉經學，品德高尚，曹叡下詔說：“從前祭遵當將軍的時候，奏請設置五經大夫，即便在軍營中，也和儒士進行唱詩、投壺的遊戲。現在將軍您統軍在外，在內還注意維護朝廷的禮儀。朕非常讚賞將軍的美意，准許提拔卑湛為博士。”
+　　戰死疆場
+　　公元231年（太和五年），諸葛亮第四次北伐，詔命張郃統領眾將到略陽迎擊，諸葛亮退守祁山，張郃追到木門谷，與蜀軍交戰，飛來的箭矢射中了張郃右膝，張郃陣亡，據《魏略》記載，是司馬懿強行命令張郃追擊。朝廷賜給他壯侯的諡號，他的兒子張雄繼承了他的爵位。張郃征戰多年，屢立戰功，明帝分給他食邑，封他的四個兒子為列侯，賜給他的小兒子關內侯的爵位。
+ 
+屈指可數
+　　屈指，用手指計算事物的數量。據《三國志·卷一七·魏書·張樂於張徐傳·張郃》記載：魏明帝時，任命張郃為節度使督導關中諸軍。
+　　他到達荊州時，正好是冬天河流水淺的時候，大船無法通行，只好住扎在方城。此時正好諸葛亮復出，急攻陳倉，魏明帝很擔心，不僅親自到河南城巡視，還增派軍隊給張郃，並問等他趕到，陳倉是否保得住。張郃知道諸葛亮的軍隊沒有太多糧食，不能久攻，於是回答：“不用等臣到，諸葛亮就先撤退；我屈指一算，諸葛亮的軍糧維持不了十天。”後來“屈指可數”這句成語就從這裡演變而出，用來形容數量很少。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="張郃" translatesAutoresizingMaskIntoConstraints="NO" id="EHF-vi-2xf">
+                                <rect key="frame" x="75" y="160" width="224" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hqT-gx-TNG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Fv-cV-Abs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8364" y="870"/>
+        </scene>
+        <!--吳-->
+        <scene sceneID="Inh-wc-eGJ">
+            <objects>
+                <tableViewController title="吳" id="VlX-oX-sJO" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hjH-Ie-n28">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="D1D-P8-djN">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="ykX-Hz-TIb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ykX-Hz-TIb" id="FQM-AF-E29">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="江東猛虎x死得早——孫策" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4F-lg-9a2">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="孫策" translatesAutoresizingMaskIntoConstraints="NO" id="nST-kT-oIh">
+                                                    <rect key="frame" x="184" y="0.0" width="207" height="119"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96011000871658325" green="0.28912261128425598" blue="0.066674612462520599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="tqA-vv-hEe" kind="show" id="5eQ-R3-ttD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="Ct1-wa-WbL">
+                                        <rect key="frame" x="0.0" y="104" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ct1-wa-WbL" id="z3p-tX-Yzf">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="神射手x有夠會射——太史慈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ww-lA-4lo">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="太史慈" translatesAutoresizingMaskIntoConstraints="NO" id="BOy-qp-gMi">
+                                                    <rect key="frame" x="168" y="0.0" width="237" height="114"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96011000871658325" green="0.28912261128425598" blue="0.066674612462520599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="2bC-VE-ouQ" kind="show" id="U8Z-GK-wwa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="tGL-uo-tJP">
+                                        <rect key="frame" x="0.0" y="208" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tGL-uo-tJP" id="jAF-n0-99x">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="莽漢x不畏生死——周泰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quh-jn-sQX">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="周泰" translatesAutoresizingMaskIntoConstraints="NO" id="63G-2i-XfD">
+                                                    <rect key="frame" x="158" y="0.0" width="257" height="112"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96011000871658325" green="0.28912261128425598" blue="0.066674612462520599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="4I5-0E-ng9" kind="show" id="SvI-Ls-Onu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="FqR-1p-dYt">
+                                        <rect key="frame" x="0.0" y="312" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FqR-1p-dYt" id="Tvh-Wz-DXi">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="火燒赤壁x美周郎——周瑜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCl-Sa-9Zr">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="周瑜" translatesAutoresizingMaskIntoConstraints="NO" id="E6a-bI-wio">
+                                                    <rect key="frame" x="184" y="0.0" width="201" height="114"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96011000871658325" green="0.28912261128425598" blue="0.066674612462520599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="8l5-fS-fOl" kind="show" id="ubP-0C-CZs"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="FrT-03-eMM">
+                                        <rect key="frame" x="0.0" y="416" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FrT-03-eMM" id="0Wb-RU-XdZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="火燒夷陵x真陸郎——陸遜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2G-0k-pGi">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="陸遜" translatesAutoresizingMaskIntoConstraints="NO" id="oeW-Ma-1TX">
+                                                    <rect key="frame" x="184" y="0.0" width="200" height="119"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96011000871658325" green="0.28912261128425598" blue="0.066674612462520599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Eyz-cF-Xpr" kind="show" id="JwL-9H-rMi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="aUz-2j-EvF">
+                                        <rect key="frame" x="0.0" y="520" width="375" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aUz-2j-EvF" id="9oJ-yd-gKr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="錦帆賊x甘寧老師——甘寧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSA-RX-Uum">
+                                                    <rect key="frame" x="0.0" y="11" width="375" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="甘寧" translatesAutoresizingMaskIntoConstraints="NO" id="Nkp-tr-K4J">
+                                                    <rect key="frame" x="201" y="0.0" width="162" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96011000871658325" green="0.28912261128425598" blue="0.066674612462520599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="oH2-P9-quH" kind="show" id="Cgc-A3-7ng"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="VlX-oX-sJO" id="rKH-kh-SS6"/>
+                            <outlet property="delegate" destination="VlX-oX-sJO" id="QdK-PK-rzR"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u2l-Yw-uUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4318" y="1568"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1aZ-Jy-hfj">
+            <objects>
+                <viewController id="tqA-vv-hEe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dM9-cs-rVu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="江東猛虎x死得早——孫策" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAJ-q4-hKd">
+                                <rect key="frame" x="71" y="78" width="234" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="孫策" translatesAutoresizingMaskIntoConstraints="NO" id="xen-38-MS7">
+                                <rect key="frame" x="36" y="149" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CVy-Qo-dm2">
+                                <rect key="frame" x="56" y="427" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">孫策(175年—200年)，字伯符，吳郡富春(今浙江富陽)人，是東漢末期和三國時期的軍事家。他是孫堅之長子，孫權之兄。孫策17歲喪父。為了積蓄力量東山再起，孫策四處結交豪傑，先後與周瑜、張紘等相識。197年，孫策終於建立起了自己的武裝力量和根據地，得到了其他軍閥和東漢朝廷的認可。198年，東漢朝廷封孫策為吳侯，拜討逆將軍。199年，孫策率軍大敗宿敵黃祖，為父報仇。孫策在給朝廷的奏摺中說：「臣身跨馬陣，手擊急鼓，以齊戰勢。吏士奮激，踴躍百倍。心精意果，各競用命。越渡重塹，迅疾若飛。火飛上風，兵激煙下，弓弩齊發，流矢雨集。可謂驚心動魄」。可見戰況之激烈。曹操在收到戰況彙報後感嘆：「獅兒難與爭鋒也」。《三國誌·孫策傳》稱孫策：「為人美姿顏，好笑語，性闊達聽受，善於用人。是以士民見者，莫不盡心，樂為致死」孫策之所以能夠佔據江東，為後來的東吳立國打下基礎，除了他驍勇善戰和謀略出眾外，還跟他禮賢下士，善於使用人才大有關係。孫策很喜歡輕騎外出狩獵。《三國誌》記載曹操的謀士郭嘉曾說過：「策新並江東，所誅皆英豪雄傑，能得人死力者也。然策輕而無備，雖有百萬之眾，無異於獨行中原也。若刺客伏起，一人之敵耳。以吾觀之，必死於匹夫之手」。後果然於200年4月，在外出狩獵時被舊仇許貢的部下行刺而死。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="yo4-pK-9Uz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Jy-sk-1O4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4972" y="1575"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jHF-6V-vew">
+            <objects>
+                <viewController id="2bC-VE-ouQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nvp-jm-6e8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="神射手x有夠會射——太史慈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVg-Qr-DHg">
+                                <rect key="frame" x="60" y="77" width="255" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="太史慈" translatesAutoresizingMaskIntoConstraints="NO" id="77Q-af-D6K">
+                                <rect key="frame" x="36" y="152" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eh8-r2-fjt">
+                                <rect key="frame" x="56" y="434" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">太史慈（166年－206年），字子義，東萊黃縣（今山東龍口）人，東漢末年群雄孔融、劉繇將領，後投靠孫策。 
+生平 
+報恩北海 
+少時好學，曾仕於郡奏曹史。後來州與郡之間出現嫌隙，太史慈便以巧計令有司不採信於州府，處事慎密周到，從此開始知名。但此事令太史慈被州府所仇視，於是舉親往北逃至遼東郡。後來其母以孔融多次致贈餉遺，而孔融被黃巾軍管亥所圍，便叫太史慈前往幫助。太史慈便奉母命往援孔融，他殺入重圍與孔融會合後，先以「韜晦之計」使黃巾軍懈怠（太史慈連續兩天於清晨時引領從人，帶備弓箭及箭靶到北海城門之下，裝作練習射箭然後回城。黃巾軍隊起初驚疑，後來習以為常，不復為備，太史慈便於第三天突擊，成功出圍），突破黃巾軍包圍，前往劉備處求助，圍解後，孔融向太史慈說：「卿吾之少友也。」表示相當看重。太史慈回家拜母後，其母亦說：「我喜汝有以報孔北海也。」 
+獨鬥孫策 
+輾轉來到江東後，本想見同郡劉繇，於是來到曲阿縣，卻在見前孫策軍已至，其時太史慈不被重用，卻只負責擔任前線軍情偵察。當時他獨自與一騎卒來到神亭，遇到孫策，孫策那邊的十三從騎都是韓當、宋謙、黃蓋之輩，太史慈卻仍然上前決鬥，孫策與他單挑。孫策刺下太史慈的馬，而攬得太史慈項上手戟，太史慈亦得孫策兜鍪。剛巧兩家兵騎並各來赴，方才作罷。 
+得遇明主 
+後來劉繇不敵孫策，引軍逃走，太史慈則前往涇縣，建立屯府，頑抗之下，最後仍被孫策俘虜。孫策相當重視太史慈，決定收攬他。劉繇破亡後，尚有餘眾萬多軍卒未降，太史慈便受命前往安撫。其時孫策軍中眾人都認為太史慈會從此離去，不再回來，然而孫策卻堅信太史慈必不背諾，二人更約定不過六十日後回，太史慈亦果能於期限內回來，此事一方面可見太史慈信守必行，而孫策亦有出眾的知人能力。 
+後來孫策分海昏、建昌設左右六縣，委任太史慈為建昌都尉，主治海昏，並督各將應付以驍勇著稱、曾數次作亂於艾縣、西安縣一帶的劉表從子劉磐。太史慈成功鎮服守地，令劉磐絕跡江東，不再為禍作亂。甚至連曹操都曾因聞其名而與他通信，並於信件中夾着當歸，示意要招攬太史慈，但太史慈都沒有加以理會。 
+孫權統事後，因太史慈能制劉磐，便將管理南方的要務委託給他。建安十一年（206年）太史慈逝世，享年四十一歲。《吳書》載他臨亡時，歎息道：「丈夫生世，當帶七尺之劍，以升天子之階。今所志未從，奈何而死乎！」孫權甚為悼惜。 
+《三國演義》 
+《三國演義》中初登場為第十一回「劉皇叔北海救孔融，呂溫侯濮陽破曹操」，後來表現與《三國志》中沒有太大分別，但其死亡時間卻往後調了數年。於群英會、赤壁之戰中，太史慈也有登場，先在群英會上為周瑜擔任監酒官，於赤壁戰中則負責繞到曹軍背後，斷絕來自合肥的曹軍援兵。後來太史慈更於合肥之戰一役中大戰魏將張遼，可惜其所獻的「裡應外合」之計被張遼悉破，張遼更將計就計，安排伏兵，襲擊進入合肥城的太史慈，令太史慈身中數箭，回營後傷重身亡。書中更有一首八絕詩句作贊：「矢志全忠孝，東萊太史慈。姓名昭遠塞，弓馬震雄師。北海酬恩日，神亭酣戰時。臨終言壯志，千古共嗟咨。」 
+特徵 
+太史慈身長七尺七寸，有美鬚髯，猿臂善射，弦不虛發。其箭術相當了得，享譽當代，他在北海為孔融求援時，曾帶弓箭衝突黃巾重圍，當黃巾軍隊上前包圍太史慈，他引弓射殺數人，箭無虛發，令黃巾賊不敢再追。投降孫策後，某次太史慈隨孫策討伐麻保賊時，有一敵將於城樓上攬著城上樑木，向孫策軍大肆叫罵，太史慈便引弓一射，一箭貫穿敵人的手，直中樓中短樑，弓術如此精妙，此「貫手著棼」一事更成為千古佳話。[1] 
+太史慈畢生展現了多方面的才能，其智勇雙全的表現，可謂一代名將。而他盡義守信的性格，更是為古今所稱道，既能報恩於孔融，又能守諾於孫策，均可見其為人磊落。然而壽命不長，所以臨終有「所志未從，奈何而死」的遺憾。 </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="MYY-9x-Q8O"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgK-BI-jyq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5654" y="1574"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Scj-gX-CD4">
+            <objects>
+                <viewController id="4I5-0E-ng9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sez-ZQ-H5u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="莽漢x不畏生死——周泰" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6S-J8-AnV">
+                                <rect key="frame" x="77" y="76" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="周泰" translatesAutoresizingMaskIntoConstraints="NO" id="fkA-KR-ihT">
+                                <rect key="frame" x="36" y="159" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="frR-6F-cxZ">
+                                <rect key="frame" x="56" y="430" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">從平江東
+
+周泰，字幼平，九江下蔡人。公元195年(興平二年)，袁術派遣孫策的舅舅吳景去進討橫江，孫策趁此機會向袁術請求要去助吳景一臂之力，袁術認為劉繇占據曲阿，王朗在會稽，孫策未必能夠成功，於是把原來孫堅的舊部全部撥給孫策，讓孫策出兵，周泰與同郡蔣欽於此時加入孫策的軍隊，跟隨孫策左右渡江與劉繇交戰，所向皆破，數有戰功。
+
+
+ 
+公元196年(建安元年)，周泰隨孫策先後擊破嚴白虎、王朗等人，孫策自領會稽太守，任命周泰為別部司馬，並授予其軍隊。時孫策的弟弟孫權非常喜歡周泰的為人，於是向孫策請求，讓周泰跟隨自己，於是周泰又伴隨孫權左右。
+
+趣歷史官方微信號：qulilshi_v5
+
+英勇救主
+
+公元197年(建安二年)，袁術拉攏丹楊、宣城、涇、陵陽、始安、黟、歙等縣山賊頭目祖郎，作亂當地，時孫策六縣山賊，而周泰與孫權住宣城，只有不到千人，鬥志低下，而且沒有防護工事，山賊數千人蜂擁而至，孫權剛剛上馬，山賊就已經殺到跟前，兵器已經砍到了馬鞍上，士眾都難以安心迎敵，只有周泰奮起，激昂作戰，用自己的身體來保護孫權，其他人受周泰的影響才與周泰一起慷慨應戰，奮力將山賊殺退，周泰身上受傷十二處，很久才康復。孫策對其非常讚賞，任命周泰為春谷長。
+
+
+
+ 
+公元199年(建安四年)，袁術死後，其部將劉勛占據宛城，擊敗想要投靠孫策的楊弘和張勳，後孫策西討黃祖時，周泰隨從襲擊宛城，後又於江夏大破黃祖。周泰一直隨孫策打到豫章，被任命為宜春長。
+
+戰功赫赫
+
+公元203年(建安八年)，周泰隨孫權西討黃祖，立下戰功，但未能攻破城池，而又有山賊作亂，不得已而退兵。
+
+公元208年(建安十三年)，周泰在討伐黃祖一戰有功。後與周瑜、程普拒曹操軍於赤壁，攻曹仁於南郡。曹操出濡須，周泰勇戰擊退曹操。於是留督濡須，拜平虜將軍。時朱然、徐盛等為周泰部下，心中不服。孫權特會諸將，行酒到周泰座位，命周泰解衣，孫權手自指其傷疤，問起受傷緣由，周泰一一回憶作答;孫權遣使者授周泰御蓋，於是諸將心服。
+
+公元207年(建安十二年)，孫權又征黃祖，周泰隨從征討，數有戰功，虜其人民而還。
+
+公元208年(建安十三年)，再征黃祖，黃祖為馮則所殺。同年，曹操揮軍南下，想一舉平定江東，孫權和劉備聯手抗曹，同時派遣周瑜、程普為左右都督與曹操軍作戰，周泰隨周瑜、程普與曹操於赤壁大戰，將其擊退。
+
+
+ 
+公元209年(建安十四年)，周泰隨周瑜進討南郡，曹仁敗走。荊州平定後，周泰率軍屯於岑。
+
+公元213年(建安十八年)，曹操率軍進攻濡須，周泰率軍前往抵擋，曹操退軍後，孫權拜周泰為平虜將軍，留督濡須，而朱然、徐盛等將因此都聽周泰調遣，於是不服，孫權聽聞此事，親自前往濡須塢，宴請諸將。孫權親自端酒到周泰跟前，然後讓周泰解開衣服，孫權每指周泰身上一處傷痕，問周泰這傷怎麼來的，周泰都明確的說出這傷痕是哪一場戰鬥怎麼受的傷，孫權拉著周泰的胳膊，哭著說：「幼平，你為我們兄弟在戰場上作戰如同熊虎一般，從不憐惜自己的身體，受傷幾十處，皮膚如同被雕刻一般，我怎麼不能不把你當作我的至親骨肉，委任你以兵馬之重?你是東吳的功臣，我當和你同榮共辱。」次日，孫權賜給周泰青羅傘蓋，於是徐盛等人才服從周泰。
+
+去世
+
+公元219年(建安二十四年)，孫權襲殺關羽，想要藉機伐蜀，於是拜周泰為漢中太守、奮威將軍，封陵陽侯。
+
+黃武年間(222年-229年)，周泰病亡。
+
+
+ 
+周泰兒子周邵以騎都尉領兵，與曹仁、曹休交戰立功，進位裨將軍，公元230年(黃龍二年)去世。周邵弟弟周承領兵繼承爵位。
+
+歷史評價
+
+孫權：「幼平，卿為孤兄弟戰如熊虎，不惜軀命，被創數十，膚如刻畫，孤亦何心不待卿以骨肉之恩，委卿以兵馬之重乎!卿吳之功臣，孤當與卿同榮辱，等休戚。幼平意快為之，勿以寒門自退也。」
+
+陳壽：「凡此諸將(按：指周泰等十二名東吳武將)，皆江表之虎臣，孫氏之所厚待也。」
+
+陸機：「甘寧、凌統、程普、賀齊、朱桓、朱然之徒奮其威，韓當、潘璋、黃蓋、蔣欽、周泰之屬宣其力。」
+
+孫元晏：「名與諸公又不同，金瘡痕在滿身中。不將御蓋宣恩澤，誰信將軍別有功。」
+
+羅貫中：「三番救主出重圍，忠勇如公世所稀。遍體瘡痍猶痛飲，血痕殘酒滿征衣。」
+
+李贄：「東吳周泰不減魏之許褚、蜀之趙雲也。壯哉丈夫!可用可用!不獨救權，且再救徐盛，益不可及矣!而仲謀報之，亦可謂一知己矣。」
+
+子嗣
+
+周邵，騎都尉領兵，在對抗曹魏的戰爭有功，官至裨將軍。黃龍二年卒。
+
+
+ 
+周承，周邵弟，領兵，襲陵陽侯爵位。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="cLg-Ou-C8R"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R74-8h-cUn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6308" y="1573"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="elN-Xk-D1a">
+            <objects>
+                <viewController id="8l5-fS-fOl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y9H-bO-3ja">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="火燒赤壁x美周郎——周瑜" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0K-zV-Aax">
+                                <rect key="frame" x="71" y="74" width="234" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="周瑜" translatesAutoresizingMaskIntoConstraints="NO" id="6Dt-BD-Q1e">
+                                <rect key="frame" x="36" y="146" width="303" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kVg-Mf-826">
+                                <rect key="frame" x="56" y="435" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">周瑜（175年-210年），字公瑾，漢末名將，廬江舒縣（今安徽省廬江縣西南）人。建安十五年（公元210年）病逝於巴丘（今湖南嶽陽），年僅36歲。周瑜出身士族，堂祖父周景、堂叔周忠，都官居漢太尉之職。其父週異，曾任洛陽令。周瑜少與孫策交好，21歲起隨孫策奔赴戰場平定江東，后孫策遇刺身亡，孫權繼任，周瑜將兵赴喪，以中護軍的身份與長史張昭共掌眾事。周瑜時年二十四歲，吳郡人皆稱之為周郎。瑜、孫策攻破皖城，得到橋公兩個女兒，皆國色天姿。孫策自娶大喬，周瑜娶小喬。公元206年（建安十一年），周瑜率孫瑜等討伐麻、保二屯，斬其首領，俘萬餘人。江夏太守黃祖遣部將鄧龍率數千人進攻柴桑，周瑜率軍反擊，俘虜了鄧龍。公元210年（建安十五年），孫權批准了周瑜提出征伐西蜀的方案，但在周瑜趕回駐地江陵，準備出征的路上時得了重病，最終卒於巴丘，時年三十六歲。
+
+生平事件
+　　官宦世家
+　　周瑜出身士族，堂祖父周景、堂叔周忠，都官居漢太尉之職。其父週異，曾任洛陽令。周瑜本人身材高大、相貌俊美，志向遠大。孫策和周瑜同歲，交往甚密。公元190年（初平元年），孫堅兵討董卓時，家人移居舒縣[3] 。周瑜讓出路南的大宅院供孫家居住，且登堂拜見孫策的母親，兩家交好。周瑜和孫策在此廣交江南名士，很有聲譽。
+　　丹陽借兵
+　　公元191年（初平二年）孫堅死後，孫策繼承父志，統率部卒[3] 。周瑜從父週尚為丹陽太守。正好孫策入歷陽（今安徽和縣西北），將要東渡，於是寫信給周瑜。周瑜率兵迎接孫策，給他以大力支持。孫策十分喜悅，說：“我得到你，太好了。”於是，二人協同作戰，先克橫江（今安徽和縣東南長江北岸）、當利（今安徽和縣東，當利水入江處） ，接著揮師渡江，進攻秣陵（今南京江寧秣陵關），打敗了笮融、薛禮，轉而攻占湖孰（今南京江寧湖熟鎮）、江乘，進入曲阿（今江蘇丹陽），公元195年（漢獻帝興平二年），逼走劉繇（參見孫策平江東之戰）。當時孫策部眾已發展到幾萬人。他對周瑜說：“我已經有了平山越的兵力財力糧食。你還是回去鎮守丹陽吧。”於是，周瑜率部回到丹陽。不久，袁術派其堂弟袁胤取代周尚任丹陽太守，周瑜隨週尚到了壽春（今安徽壽縣）。袁術發現周瑜有才，便欲收羅周瑜為已將。周瑜看出袁術最終不會有什麼成就，所以隻請求做居巢縣長，欲藉機回江東，袁術同意了周瑜的請求。
+　　官居要職
+　　公元198年（建安三年），周瑜經居巢回到吳郡（今江蘇蘇州）。孫策聞周瑜歸來，親自出迎，授周瑜建威中郎將，調撥給他士兵兩千人，戰騎五十匹。此外，孫策還賜給周瑜鼓吹樂隊，替周瑜修建住所，賞賜之厚，無人能與之相比。孫策還在發布的命令中說：“周公瑾雄姿英發，才能絕倫，和我有總角之好，骨肉之情。在丹陽時，他率領兵眾，調發船糧相助於我，使我能成就大事，論功酬德，今天的賞賜還遠不能回報他在關鍵時刻給我的支持呢！”周瑜時年二十四歲，吳郡人皆稱之為周郎。
+　　因廬江一帶，士民向來佩服周瑜的恩德信義，於是孫策命他出守牛渚、後來又兼任春谷長。不久，孫策要攻打荊州，拜周瑜為中護軍，兼任江夏（治湖北新州西）太守，隨軍征討。周瑜、孫策攻破皖城，得到橋公兩個女兒，皆國色天姿。孫策自娶大喬，周瑜娶小喬。孫策對周瑜說：“橋公之女，雖經戰亂流離之苦，但得我們二人作女婿，也足可慶幸了。”接著進攻尋陽，敗劉勛，然後討江夏，又回兵平定豫章（今江西南昌）、廬陵（今江西吉安）。周瑜留下來鎮守巴丘。
+　　安邦重臣
+　　公元200年（建安五年）四月，孫策遇刺身亡，時年26歲，臨終把軍國大事託付孫權。時孫權只有會稽、吳郡、丹陽、豫章、廬陵數郡，其偏遠險要之處也尚未全附。天下英雄豪傑散在各個州郡，並未和孫氏建立起君臣之間相互依賴的關係。關鍵時刻，首先出面支持孫權的是張昭、周瑜、呂範、程普等人。周瑜從外地帶兵前來奔喪，留在吳郡孫權身邊任中護軍。他握有重兵，用君臣之禮對待孫權，同長史張昭共同掌管軍政大事。
+　　曹操在官渡之戰打敗袁紹後，在公元202年（建安七年），下書責令孫權，讓孫權把兒子送到曹操這裡來做人質。孫權不願受制於人，便召集群臣會商。大臣們眾說紛紜，張昭、秦松等重臣，猶豫再三，不能決斷。孫權本意雖不想送人質，但由於沒有得到強有力的支持，也有點舉棋不定。於是，他只帶周瑜一人到母親面前議定此事。周瑜立場堅定，堅決反對送人質，他給孫權分析利害說：“當年楚君剛被封到荊山的邊上時，地方不夠百里。他的後輩賢能，擴張土地，開拓疆域，在郢都建立根基，佔據荊揚之地，直到南海。子孫代代相傳，延續九百多年。現在將軍您繼承父兄的餘威舊業，統御六郡，兵精糧足，戰士們士氣旺盛。而且，鑄山為銅，煮海為鹽，人心安定，士風強勁，可以說所向無敵，為什麼要送質於人呢？人質一到曹操手下，我們就不得不與曹操相呼應，也就必然受制於曹氏。那時，我們所能得到的最大的利益，也不過就是一方侯印、十幾個僕人、幾輛車、幾匹馬罷了，哪能跟我們自己創建功業，稱孤道寡相提並論呢？為今之計，最好是不送人質，先靜觀曹操的動向和變化。如果曹操能遵守道義，拯救天下，那時我們再歸附也不晚；如果曹操驕縱，圖謀生亂玩火 自焚，將軍您只要靜待天命即可，為何要送質於人呢？”周瑜這番話，說到了孫權心裡。孫權的母親也認為該這樣做，她對孫權說：“公瑾的話有道理，他比你哥哥隻小1個月，我一向把他當兒子對待，你該把他當成兄長才是。”孫權便沒給曹操送人質。
+　　對於孫氏，周瑜說得上忠貞不二。《江表傳》記載，曹操想使周瑜為自己所用，曾派善於辯說的蔣幹前去遊說周瑜， 周瑜既十分堅決的回絕了蔣幹。天下的士人，因此愈加佩服周瑜。公元206年（建安十一年），周瑜率孫瑜等討伐麻、保二屯，斬其首領，俘萬餘人。江夏太守黃祖遣部將鄧龍率數千人進攻柴桑，周瑜率軍反擊，俘虜了鄧龍。
+　　火燒赤壁
+　　公元208年（建安十三年）年秋天，曹操率軍南侵，佔領荊州，曹操向孫權進逼。大軍壓境之際，孫權的大臣們出現了主和、主戰兩派。孫權又受到魯肅，以及劉備屬下諸葛亮的說詞影響，正猶豫不決。魯肅勸孫權招回在鄱陽的周瑜。周瑜回到孫權身邊，向孫權分析曹操與孫權兩軍的勝敗關鍵，先是指出：曹軍遠途跋涉，疲憊不堪；天氣寒冷，馬沒有草吃；北方人慣習陸戰不擅水戰，水土不服；馬超、韓遂尚在關西，為曹操的後患。既而進一步分析了曹軍的實際力量，指出來自中原的曹軍不過十五六萬，而且所得劉表新降的七八萬人，人心並不向曹。周瑜自薦以三万精兵抵抗曹軍，孫權這才下定決心，拔劍砍掉桌子一角，說：“再有敢說投降的人，就像這個桌子一樣！”
+　　孫權命周瑜及程普等領三萬人抗曹，途中在赤壁兩軍遇上，曹操軍因有疾病，又不習水性，初戰便敗退，曹操引軍至江北。周瑜便與劉備軍在南岸設營，雙方對峙。周瑜部將黃蓋建議用火計將曹軍打敗[19] ，周瑜認為可行，命黃蓋詐降[20] 。曹操果然中計，船艦全被燒毀，曹操北還南郡。
+　　命隕巴丘
+　　周瑜又與程普進軍南郡，和曹仁隔江相持。兩軍尚未交鋒，周瑜先派甘寧前去佔據夷陵。曹仁分出一部分兵馬包圍了甘寧，甘寧向周瑜告急。周瑜採用了呂蒙的計謀，留下凌統守衛後方，親帶呂蒙去救甘寧，解除了甘寧之圍。周瑜率兵屯駐北岸，約定日期大戰曹仁。周瑜親自騎馬督戰，被飛箭射中右脅，傷勢嚴重，退兵回營。曹仁聞周瑜臥病在床，親自督帥士兵上陣攻擊吳兵。周瑜奮身而起，巡視各營，激勵將士殺敵，曹仁只好退走。孫權任命周瑜為偏將軍，兼仁南郡太守，並把下雋、漢昌、州陵作為他的奉邑，讓他屯兵於江陵。
+　　赤壁之戰後，周瑜向孫權獻計軟禁劉備，直接管理劉備陣營的軍隊部屬，但孫權不同意。公元210年（建安十五年），孫權批准了周瑜提出征伐西蜀的方案，但在周瑜趕回駐地江陵，準備出征的路上時得了重病，最終卒於巴丘，時年三十六歲。孫權親自穿上喪服為周瑜舉哀，感動左右。周瑜的靈柩運回吳郡時，孫權到蕪湖親迎，各項喪葬費用，全由國家支付。
+周瑜打黃蓋
+　　赤壁之戰時，為了讓曹操上當，周瑜決定使用苦肉計。黃蓋奮勇當先，於是在軍事會議上，黃蓋假裝與周瑜意見不和，甚至出言甚有輕視之意。於是周瑜下令將黃蓋斬首，因為黃蓋是有功的老臣，因此諸將苦苦求情，周瑜將處罰改為笞刑，將黃蓋打得臥床不起。這正是做給詐降吳營的蔡中蔡和看的，於是闞澤為黃蓋獻詐降書，蔡中蔡和又恰好將這一假情報傳回了曹營，曹操便深信不疑，在黃蓋領軍前來時，絲毫沒有防備措施，以至於後來的赤壁慘敗，敗走華容的局面出現。據說赤壁之戰後的遺址經過歲月的沉澱，成為了今天的三國赤壁古戰場。
+ 
+周瑜怎麼死的
+　　公元208年，周瑜又與程普進軍南郡，和曹仁隔江相持。兩軍尚未交鋒，周瑜先派甘寧前去佔據夷陵。曹仁分出一部分兵馬包圍了甘寧，甘寧向周瑜告急。周瑜採用了呂蒙的計謀，留下凌統守衛後方，親帶呂蒙去救甘寧，解除了甘寧之圍。周瑜率兵屯駐北岸，約定日期大戰曹仁。周瑜親自騎馬督戰，被飛箭射中右脅，傷勢嚴重，退兵回營。曹仁聞周瑜臥病在床，親自督帥士兵上陣攻擊吳兵。周瑜奮身而起，巡視各營，激勵將士殺敵，曹仁只好退走。孫權任命周瑜為偏將軍，兼仁南郡太守，並把下雋、漢昌、州陵作為他的奉邑，讓他屯兵於江陵。赤壁之戰後，周瑜向孫權獻計軟禁劉備，直接管理劉備陣營的軍隊部屬，但孫權不同意。公元210年（建安十五年），孫權批准了周瑜提出征伐西蜀的方案，但在周瑜趕回駐地江陵，準備出征的路上時得了重病，最終卒於巴丘，時年三十六歲[ 25] 。孫權親自穿上喪服為周瑜舉哀，感動左右。周瑜的靈柩運回吳郡時，孫權到蕪湖親迎，各項喪葬費用，全由國家支付。
+ 
+三氣周瑜
+　　一氣周瑜
+　　《三國演義》“第五十一回曹仁大戰東吳兵孔明一氣周公瑾”：“周瑜和諸葛亮約定，如果周瑜奪取南郡失敗，劉備再去取，周瑜第一次奪取失利受傷，然後又將計就計，打敗了曹兵，但是諸葛亮卻乘機奪取了南郡等地，既沒有違約，又奪取了地盤。”氣得周瑜金瘡迸裂，摔下馬來。
+　　二氣周瑜
+　　劉備的夫人死後，孫權按照周瑜的計策假裝把自己的妹妹孫尚香許配給劉備，想把劉備騙到東吳，再將其殺害。誰知吳國太（孫權的母親）看中了劉備，不僅不許孫權殺他，還真要把孫尚香許配給他。周瑜便想讓劉備長期與諸葛亮，關羽張飛等人隔開，並且用聲色迷惑劉備，使之喪失得天下的雄心，但是失敗了。諸葛亮又使計讓劉備安然的回到了荊州，並且讓周瑜中了埋伏，還讓士兵譏諷周瑜“周郎妙計安天下，賠了夫人又折兵”。讓周瑜氣得金瘡再次迸裂。這也就是現在“賠了夫人又折兵”這句俗語的由來了。
+　　三氣周瑜
+　　《三國演義》“第五十六回曹操大宴銅雀台孔明三氣周公瑾”：劉備向東吳借取荊襄九郡，圖謀發展壯大自己，然而東吳怕養虎為患，等劉備強大後勢必對自己構成威脅，三番五次要求其歸還荊州，劉備和諸葛亮就以攻取西川後，必還荊州為由，但遲遲不攻取，此舉令周瑜氣急敗壞，遂想出了過道荊州幫助劉備攻取西川，因為欲攻取西川必須途經荊襄，可是周瑜實則是為了攻取荊州，此計卻被諸葛亮識破，使得周瑜被圍，周瑜氣急又加之舊傷復發，不治身亡。
+ 
+歷史評價
+　　孫策：“公瑾英雋異才，與孤有總角之好，骨肉之分。”“吾得卿，諧也。”
+　　孫權：“公瑾雄烈，膽略兼人，遂破孟德，開拓荊州，邈焉難繼，君今繼之。……子明……學問開益，籌略奇至，可以次於公瑾，但言議英發不及之耳。”“孤非周公瑾，不帝矣。”“公瑾有王佐之資，今忽短命，孤何賴哉？”
+　　曹操：“赤壁之役，值有疾病，孤燒船自退，橫使周瑜虛獲此名。”
+　　劉備：“公瑾文武籌略，萬人之英，顧其器量廣大，恐不久為人臣耳。”
+　　陳壽：“曹公乘漢相之資，挾天子而掃群桀，新盪荊城，仗威東夏，於時議者莫不疑貳。周瑜、魯肅建獨斷之明，出眾人之表，實奇才也。”
+　　杜牧：“周有齊太公，秦有王翦，兩漢有韓信、趙充國、耿恭、虞詡、段颎，魏有司馬懿，吳有周瑜，蜀有諸葛武侯，晉有羊祜、杜公元凱，梁有韋叡，元魏有崔浩，周有韋孝寬，隋有楊素，國朝有李靖、李勣、裴行儉、郭元振。如此人者，當此一時，其所出計畫，皆考古校今，奇秘長遠，策先定於內，功後成於外。”
+　　李白：“二龍爭戰決雌雄, 赤壁樓船掃地空。烈火初張照雲海，周瑜曾此破曹公。”
+　　陳子龍：“自漢以後，文武漸分，然猶有虞詡、諸葛亮、周瑜、陸遜、司馬懿、羊祜、杜預、溫嶠、謝玄、韋叡、崔浩、李靖、裴行儉、郭元振、裴度、李德裕、韓琦、李綱、虞允文之徒奮策儒素建功閫外，為時宗臣。彼豈必有摶虎之力，射雕之技哉？不過深明古今之事，能決機宜之便耳。”
+　　鄭板橋：“周郎年少，正雄姿歷落，江東人傑。八十萬軍飛一炬，風捲灘前黃葉。樓艫雲崩，旌旗電掃，射江流血。咸陽三月，火光無此橫絕。想他豪竹哀絲，回頭顧曲，虎帳談兵歇。公瑾伯符天挺秀，中道君臣惜別。吳蜀交疏，炎劉鼎沸，老魅成姦黠。至今遺恨，秦淮夜夜幽咽。”
+　　盧弼：“公瑾生長江、淮，諳識險要，出入彭、蠡，久涉波濤，熟籌彼我，用能以寡擊眾，遁走阿瞞，一戰而霸，克建大勳，玄德謂為本文武籌略，萬人之英者，豈虛語哉。或曰：'公瑾不死，操之憂也，先主亦安能定蜀乎？'”
+　　呂思勉：“周瑜、魯肅，亦皆可謂為好亂之士也。徒以二三剽輕之徒，同懷行險徼幸之計，遂肇六十年分裂之禍，豈不哀哉。”</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="CMB-kd-yDX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f8Q-Bl-ojM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7006" y="1574"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AyJ-4S-K4R">
+            <objects>
+                <viewController id="oH2-P9-quH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UsH-Mx-rcp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="錦帆賊x甘寧老師——甘寧" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2a1-NQ-Jem">
+                                <rect key="frame" x="71" y="78" width="234" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LEt-NF-p1U">
+                                <rect key="frame" x="56" y="439" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">甘寧簡介
+
+
+甘寧(?—220年)，字興霸，巴郡臨江(今重慶忠縣)人，官至西陵太守，折衝將軍。
+
+少年時好遊俠，糾集人馬，持弓弩，在地方上為非作歹，組成渠師搶奪船隻財物，身佩鈴鐺，衣著華麗，人稱錦帆賊。當地人聞鈴響，即知道是甘寧出現。奪取船貨直到二十多歲，後停止搶劫，熟讀諸子。18歲左右任過蜀郡丞，後歷仕於劉表和黃祖麾下不被重用，期間曾射殺凌統之父凌操，因此與凌統有殺父之仇。
+
+建安十三年(208年)，甘寧率部投奔孫權，開始建功立業。破黃祖據楚關，攻曹仁取夷陵，鎮益陽拒關羽，守西陵獲朱光，率騎襲曹營，戰功赫赫，孫權曾說：「孟德有張遼，孤有甘興霸，足可敵矣。」甘寧為人仗義疏財，深得士卒擁戴。
+
+
+甘寧生平事跡
+
+甘寧在郡中，輕俠殺人，藏舍亡命，大有名聲。他一出一入，威風炫赫。步行則陳列車騎，水行則連接輕舟。侍從之人，披服錦繡，走到哪裡，哪裡光彩斐然。停留時，常用錦繡維繫舟船，離開時，又要割斷拋棄，以顯示其富有奢侈。
+
+所在城邑的地方官員或那些跟他相與交往之人，如果隆重地接待，甘寧便傾心相交，可以為他赴湯蹈火;如果禮節不隆，甘寧便放縱手下搶掠對方資財，甚至賊害官長吏員。這種情況，一直持續了二十多年。後甘寧不再攻掠別人。他讀了一些書，鑽研諸子百家之說，想有所作為，便率領八百多人，去依附劉表，留駐南陽。
+
+大約建安八年(203年)，甘寧路經夏口(今湖北武漢)，被江夏太守黃祖挽留，一留就是三年。黃祖留下甘寧，卻義以「凡人」相待。黃祖部下督蘇飛數次推薦甘寧，黃祖不但不加任用，反而派人去勾引甘寧部下，致使甘寧手下漸漸有人離去。甘寧明知黃相處不能再留，也想棄之而去，只是沒有一條萬全的途徑，因而，獨自憂愁苦悶，無計可施。
+
+建安十二年(207年)，孫權領兵西攻江夏，黃祖大敗，狼狽逃潰。甘寧將兵為其斷後。他沉著冷靜，舉弓勁射，射殺孫權的校尉凌操。孫軍不敢再退，黃祖性命這才得以保全。甘寧立下大功，可黃祖仍不重用，甘寧決計離去。
+
+於是，蘇飛提出讓甘寧任邾長，黃祖同意。甘寧招回原來離去的一些手下，又聚集一些願意相從的人，帶著他們投奔孫了權。
+
+由於周瑜、呂蒙的推薦，孫權對甘寧十分器重，對待他如原來那些老臣一般。甘寧心情愉快，立即向孫權獻計：「今漢祚日微，曹操彌憍，終為篡盜。南荊之地，山陵形便，江川流通，誠是國之西勢也。寧已觀劉表，慮既不遠。兒子又劣，非能承業傳基者也。至尊當早規之，不可後操。圖之之計，宜先取黃祖。祖今年老，昏耄已甚，財谷並乏，左右欺弄，務於貨利，侵求吏士，吏士心怨。舟船戰具，頓廢不修，怠於耕農，軍無法伍。至尊今往，其破可必。一破祖軍，鼓行而西，西據楚關，大勢彌廣，即可漸規巴、蜀」(《三國志·吳書·甘寧傳》)。孫權很讚賞這一意見，堅定了用兵的決心。
+
+建安十三年(208年)春，孫權命甘寧西征江夏，果然擒獲黃祖，把他的部眾也全部擊潰俘獲。勝利後，孫權分拔一支部隊給甘寧指揮，屯兵當口。
+
+赤壁之戰後，周瑜、甘寧曾力勸孫權西取巴蜀。孫權猶豫不決，去徵求劉備的意見。劉備早有占據巴蜀的打算，便巧妙地加以勸阻。孫權坐失良機，致使西蜀落入劉各之手，追悔莫及。
+
+
+甘寧性格介紹
+
+甘寧性情粗猛好殺。其廚房下一小童犯了過失。逃到呂蒙那裡，呂蒙怕他遭甘寧殺害，便把他藏匿起來，沒有馬上將他送回。後甘寧帶著禮物來拜謁呂蒙的母親，要升堂見母時，呂蒙才叫出那小童來還給甘寧，甘寧答應不殺他。可是，過了一會兒，回到船上，甘寧卻把小童捆在桑樹上，親自挽弓將他射死。
+
+然後，下令船上的人加固船的纜繩，自己解下衣服臥在船中。呂蒙大怒，鳴鼓聚兵，準備上船進擊甘寧。甘寧聽到動靜，故意躺著不起來。呂蒙的母親光著腳跑來勸阻呂蒙：「主上待你如同骨肉，把大事託付給你，怎麼能因個人的憤怒而想攻殺甘寧呢?甘寧要是死了，縱然主上不責問你，你作為臣子這樣做也是非法的。」呂蒙一向非常孝順，聽了母親的話，心裡明白過來。他親自來到甘寧船上，笑著招呼：「興霸，老母正等你吃飯，快上岸吧!」甘寧十分羞愧，流著淚對呂蒙哽咽著說：「我有負於您。」便與呂蒙一起回去拜見呂母，歡暢地宴飲一天。
+
+公元220年(建安二十五年)，甘寧去世，甘寧死時，孫權深深痛惜。
+
+
+
+原文網址：https://kknews.cc/zh-tw/history/oobpkb5.html</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="甘寧" translatesAutoresizingMaskIntoConstraints="NO" id="Jng-PL-5ty">
+                                <rect key="frame" x="75" y="149" width="224" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="g3k-vY-SAc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nw6-8e-kbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7684" y="1574"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3Ka-ek-8JA">
+            <objects>
+                <viewController id="Eyz-cF-Xpr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pQA-qo-NBQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="火燒夷陵x真陸郎——陸遜" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJb-nX-Chf">
+                                <rect key="frame" x="71" y="79" width="234" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0x2-YX-MR1">
+                                <rect key="frame" x="56" y="435" width="263" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">陸遜（183年－245年3月19日），本名陸議，字伯言，吳郡吳縣（今江蘇蘇州）人。三國時期著名的軍事家、政治家，歷任吳國大都督、上大將軍、丞相。東吳大帝孫權兄長沙桓王孫策之婿，世代為江東大族。章武二年（222年），陸遜在夷陵擊敗劉備所率蜀漢軍，一戰成名。夷陵之戰也成為戰爭史上著名的積極防禦的成功戰例。以後陸遜在東吳出將入相。晚年因捲入立嗣之爭、力保太子孫和而累受孫權責罰，憂憤而死，葬於蘇州，至今蘇州有地名陸墓。
+
+　　陸遜家世為為江東大族。其祖父陸纖官至城門校尉，父親陸駿，任九江（今安徽壽春東）都尉。陸遜十歲喪父，隨其從祖父廬江太守陸康，在其任所讀書。後因袁術與陸康不和，唆使孫策攻陷廬江，一個多月後，陸康病死。在此之前陸康已將陸遜與親屬送往江東。陸康子陸績尚幼，所以年僅十二歲的陸遜便承擔起支撐門戶的責任。
+
+　　青年陸遜是溫文爾雅的一介書生。當時，陸績及其外甥顧邵以博覽書傳齊名，陸遜、張敦、卜靜次之，風聲流聞，遠近知名。但歷史卻把陸遜推上了政治舞台。
+
+
+ 
+　　孫策死後，孫權繼領其眾，為將軍，「招延俊秀，聘求名士」。陸遜年僅二十一歲，應召入孫權幕府，成為孫權統治集團的幕僚。歷仕東、西曹為令史；不久出任海昌（今浙江海寧）屯田都尉，兼海昌縣令。海昌境內連年遭旱災，他開倉賑濟貧民，組織生產自救，緩和了災情，因此深得民心。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="陸遜" translatesAutoresizingMaskIntoConstraints="NO" id="n3h-St-qSu">
+                                <rect key="frame" x="75" y="160" width="224" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73182945470000005" green="0.85847123339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="oc5-z5-mYj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f09-Jf-Bjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8364" y="1574"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="于禁" width="507" height="718"/>
+        <image name="劉備" width="580" height="825"/>
+        <image name="周泰" width="336" height="512"/>
+        <image name="周瑜" width="360" height="509"/>
+        <image name="太史慈" width="500" height="629"/>
+        <image name="孫策" width="336" height="512"/>
+        <image name="張遼" width="199" height="199"/>
+        <image name="張郃" width="199" height="199"/>
+        <image name="張飛" width="199" height="277"/>
+        <image name="徐晃" width="321" height="573"/>
+        <image name="曹操" width="620" height="881"/>
+        <image name="樂進" width="200" height="200"/>
+        <image name="甘寧" width="182" height="277"/>
+        <image name="电视剧三国2010" width="368" height="278"/>
+        <image name="螢幕快照 2018-10-12 下午3.05.24" width="343" height="424"/>
+        <image name="趙雲" width="154" height="220"/>
+        <image name="關羽" width="317" height="450"/>
+        <image name="陸遜" width="212.39999389648438" height="276.60000610351562"/>
+        <image name="馬超" width="240" height="240"/>
+        <image name="魏蜀吳" width="482" height="323"/>
+        <image name="黃忠" width="604" height="859"/>
+    </resources>
 </document>
